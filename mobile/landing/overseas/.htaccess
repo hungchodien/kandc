@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /mobile/landing/overseas/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+
+

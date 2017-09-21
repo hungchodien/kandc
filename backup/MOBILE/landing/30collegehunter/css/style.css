@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* CSS Document */
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+
+img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*page
+----------------------------------------------------*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	font-size:13px;
+	line-height:22px;
+	color: #000;
+}
+
+img{
+	max-width: 100%;
+	height: auto !important;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.wrapper {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 0 3%;
+}
+.inside {
+	max-width: 640px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+header {
+	border-bottom: 1px solid #9b773d;
+	text-align:center;
+}
+.logo a {
+	padding: 5px 0;
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.site_description {
+	padding: 0 3% 5px 3%;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.main_top {
+	position: relative;
+}
+
+.main_top_txt {
+	position: absolute;
+	top: 3%;
+	max-width: 90%;
+	left:5%;
+}
+.sub_title {
+	padding: 6% 0 4% 0;
+	max-width: 95%;
+}
+.sign {
+	font-size: 11px;
+	text-align: right;
+	color: #444;
+	position: absolute;
+	bottom: 19.5%;
+	max-width: 94%;
+	line-height:12px;
+}
+.entry_btn_top {
+	position: absolute;
+	bottom: 11%;
+	max-width: 94%;
+}
+.entry_btn {
+	text-align: center;
+	padding: 20px 0 5px 0;
+}
+.features_title {
+	padding: 15px 5% 30px 5%;
+	/*text-align: center;*/
+	max-width: 85%;
+	margin: 0 auto;
+}
+.reason_box {
+	-webkit-border-radius: 15px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 15px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 15px;
+	border-top-left-radius: 0;
+	border: 1px solid #9b773d;
+	padding: 3%;
+	position: relative;
+	margin: 0 0 15px 0;
+}
+.reason_icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 20%;
+}
+.reason_box_title {
+    padding: 35px 3% 20px 3%;
+    text-align: center;
+	margin: 0 auto;
+}
+.reason_box1 .reason_box_title, .reason_box3 .reason_box_title {
+	max-width: 65%;
+}
+.sub_entry_button_30{
+	max-width:94%;
+	margin:0 auto;
+}
+.gcdf {
+	font-size: 11px;
+	line-height:16px;
+	color: #4c4c4c;
+	padding: 0 0 40px 0;
+}
+.gcdf_title {
+	display: block;
+	padding: 0 0 5px 0;
+}
+.voice {
+	position: relative;
+	padding: 0 0 35px 0;
+}
+
+.voice_tilte {
+    padding: 15% 5% 30px;
+}
+.voice_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	max-width: 100%;
+}
+.voice_box {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 3%;
+	margin: 0 0 15px 0;
+}
+.voice_flow {
+	text-align: center;
+}
+.voice_box_title {
+	padding: 30px 0 20px 0;
+}
+.headhunter_entry_title {
+	background: url(../img/entry-title-bg.png) no-repeat center center;
+	background-size: cover;
+	padding: 30px 5%;
+}
+
+#copyR {
+	font-size: 11px;
+	line-height: 16px;
+	padding: 10px 0;
+}
+
+.text-point{
+	background:#FFFBDB;
+	font-weight:bold;
+	color:#9b773d;
+}
+
+
+/*Minhnn*/
+header.site_header {
+    border-bottom: none;
+}
+.wrapper_site_header{
+	 margin: 0 auto;
+    
+    padding: 0 3%;
+	max-width: 640px;
+}
+.wrapper_site_header .group_header_top{
+	display:block;
+	width:100%;
+	position:relative;
+	padding:1% 0;
+}
+.wrapper_site_header .logo {
+	width:45%;
+	max-width:inherit;
+	padding: 0;
+	margin:0;
+	float:left
+}
+.wrapper_site_header .logo a{
+	display:block;
+	max-width:100%;
+}
+
+.wrapper_site_header h1.site_description{
+	width:45%;
+	position:absolute;
+	top:55%;
+	-ms-transform: translateY(-50%); 
+	-webkit-transform: translateY(-50%); 
+	transform: translateY(-50%);
+	padding:0;
+	right:0;
+	text-align:right;
+	font-size:11px;
+}
+
+.reason_box1 h3.reason_box_title{
+	max-width: 75%;
+}
+.reason_box2 h3.reason_box_title{
+	max-width: 75%;
+}
+.reason_box3 h3.reason_box_title{
+	max-width: 75%;
+}
+.sign{
+	line-height: 23px;
+}
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 520px) {
+	.wrapper_site_header .logo {
+		width:39%;
+	}
+	.wrapper_site_header h1.site_description{
+		width:60%;
+		font-size: 10px;
+	}
+	
+	.reason_box1 h3.reason_box_title{
+		max-width: 100%;
+	}
+	.reason_box2 h3.reason_box_title{
+		max-width: 100%;
+	}
+	.reason_box3 h3.reason_box_title{
+		max-width: 100%;
+	}
+	.sign{
+		line-height: 17px;
+	}
+}
+@media screen and (max-width: 410px) {
+	.wrapper_site_header h1.site_description{
+		font-size: 9px;
+    	font-weight: bold;
+	}
+	.sign{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 335px) {
+	.wrapper_site_header h1.site_description{
+		font-size: 8px;
+    	
+	}
+}
+/* Clearfix
+-----------------------------------------*/
+
+.clear {
+	zoom: 1;
+}
+
+.clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}

@@ -1,0 +1,4 @@
+{email}
+{subscribe_post1}
+{subscribe_post2}
+{subscribe_post3}

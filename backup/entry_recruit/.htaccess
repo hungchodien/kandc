@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /entry_easy/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+ErrorDocument 404 "Not Found"
+
+

@@ -1,0 +1,97 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://kc-consul.com/ [R=301,L] 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://kc-consul.com/ [R=301,L] 
+
+RewriteCond %{THE_REQUEST} (?:/[^/]*)*/index\.php[?#\ ]
+RewriteRule .* %{REQUEST_URI}/../ [L,R=301]
+
+
+Redirect 301 /about-us.html http://www.kc-consul.com/about-us/
+Redirect 301 /interview.html http://www.kc-consul.com/interview/
+Redirect 301 /job-search.html http://www.kc-consul.com/job-search/
+Redirect 301 /blog.html http://www.kc-consul.com/blog/
+Redirect 301 /sitemap.html http://www.kc-consul.com/sitemap/
+Redirect 301 /jobinfo.html http://www.kc-consul.com/jobinfo/
+Redirect 301 /pickjob.html http://www.kc-consul.com/pickjob/
+Redirect 301 /policy.html http://www.kc-consul.com/policy/
+Redirect 301 /landing.html http://www.kc-consul.com/landing/
+
+RewriteRule ^([^/]*)/$ index.php?page=$1 [L]
+
+
+
+RewriteRule ^contact/([^/]*)\.html$ index.php?page=contact&cmd=$1 [L]
+RewriteRule ^seminar/([^/]*)\.html$ index.php?page=seminar&views=$1 [L]
+
+#interview 
+
+Redirect 301 /interview/index.php http://www.kc-consul.com/interview.html
+Redirect 301 /interview/inexperience/index.php http://www.kc-consul.com/interview.html#inexperience
+Redirect 301 /interview/top/index.php http://www.kc-consul.com/interview.html#top
+Redirect 301 /interview/consultant-post/index.php http://www.kc-consul.com/interview.html#consultant-post
+Redirect 301 /interview/symposium/index.php http://www.kc-consul.com/interview.html#symposium
+
+#RewriteRule ^interview/([^/]*)/([^/]*)\.html$ index.php?page=interview&list=$1&show=$2 [L]
+RewriteRule ^interview/([^/]*)/([^/]*)/([^/]*)\.html$ index.php?page=interview&list=$1&show=$2&number=$3 [L]
+
+#RewriteRule ^interview_demo/([^/]*)/([^/]*)\.html$ index.php?page=interview_demo&list=$1&show=$2 [L]
+#RewriteRule ^interview_demo/([^/]*)/([^/]*)/([^/]*)\.html$ index.php?page=interview_demo&list=$1&show=$2&number=$3 [L]
+
+#blog
+#RewriteRule ^blog/([^/]*)\.html$ index.php?page=blog&detail_blog=$1 [L]
+RewriteRule ^blog/([^/]*)\.html$ index.php?page=blog&sid=$1 [L]
+
+RewriteRule ^([^/]*)/([^/]*)\.html$ index.php?page=$1&sid=$2 [L]
+
+#category-job
+RewriteRule ^category/job_group/([0-9]+)\.html$ index.php?page=category&hcm=$1 [L]
+RewriteRule ^category/list/([0-9]+)\.html$ index.php?page=category&list=$1 [L]
+RewriteRule ^category/list/([0-9]+)/page/([^/]*)\.html$ index.php?page=category&list=$1&currentpage=$2 [L]
+
+RewriteRule ^category/high_class/all/page/([^/]*)\.html$ index.php?page=category&high_class=all&currentpage=$1 [L]
+
+RewriteRule ^category/high_class/([0-9]+)/page/([^/]*)\.html$ index.php?page=category&high_class=$1&currentpage=$2 [L]
+
+RewriteRule ^category/high_class/([^/]*)\.html$ index.php?page=category&high_class=$1 [L]
+
+RewriteRule ^category/list/short/new/([0-9]+)\.html$ index.php?page=category&short=new&list=$1 [L]
+RewriteRule ^category/list/short/new/([0-9]+)/page/([^/]*)\.html$ index.php?page=category&short=new&list=$1&currentpage=$2 [L]
+
+RewriteRule ^jobinfo/([^/]*)/([^/]*)\.html$ index.php?page=jobinfo&sid=$1&cate=$2 [L]
+
+#search
+RewriteRule ^search/([^/]*)/page/([^/]*)/([^/]*)$  index.php?page=search&category_select=$1&currentpage=$2&s=$3 [L]
+RewriteRule ^search/page/([^/]*)/([^/]*)$  index.php?page=search&currentpage=$1&s=$2 [L]
+RewriteRule ^search/([^/]*)/page/([^/]*)$  index.php?page=search&category_select=$s1&currentpage=$2 [L]
+#search salary
+RewriteRule ^find/salary/page/([^/]*)/([^/]*)$  index.php?page=find&cmd=salary&currentpage=$1&salary_select=$2 [L]
+
+#search only-job this page
+RewriteRule ^fund/category/([^/]*)\.html$  index.php?page=fund&cmd=category&file=$1 [L]
+RewriteRule ^fund/category/page/([^/]*)/([^/]*)\.html$  index.php?page=fund&cmd=category&currentpage=$1&file=$2 [L]
+RewriteRule ^fund/jobinfo/([^/]*)/([^/]*)\.html$  index.php?page=fund&cmd=jobinfo&file=$1&sid=$2 [L]
+
+#search all
+
+RewriteRule ^search/all/([^/]*)$  index.php?page=search&cmd=all&s=$1 [L]
+
+#company 
+
+RewriteRule ^company/detail/([^/]*)\.html$ index.php?page=company&cmd=detail&php_file=$1 [L]
+
+
+
+
+
+
+DirectoryIndex index.php index.html .ht
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html

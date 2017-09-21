@@ -1,0 +1,323 @@
+/* CSS Document */
+.top_lb_content_entry{
+	width:100%;
+	margin:10px 0;
+}
+.top_lb_content_entry img{
+	width:100%;
+}
+.group_txt_lb {
+   
+    position: relative;
+  	width: 100%;
+}
+.group_txt_lb .item_lb_txt1{
+	background:url(img/future-bg.png) repeat 0 0;
+	width:94%;
+	height:100%;
+	padding:10px 3% 20px 3%;
+}
+.group_txt_lb .item_lb_txt1 .title_item {
+    color: #ff7300;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+	
+}
+.group_txt_lb .item_lb_txt1 .content_item {
+    color: #fff;
+    line-height: 1.5;
+}
+.txt_end_lp_footer{
+	width:96%;
+	text-align:center;
+	padding:20px 2%;
+}
+.txt_end_lp_footer img{
+	width:100%;
+	
+}
+.tbl_entry_lp_button{
+	width:96%;
+	text-align:center;
+	padding:0px 2% 10px 2%;
+}
+.tbl_entry_lp_button a{
+	display:block;
+}
+.tbl_entry_lp_button a img{
+	width:100%;
+}
+.header_lp_title_txt{
+	padding:20px 0;
+}
+.header_lp_title_img{
+	width:94%;
+	padding:20px 3%;
+}
+.header_lp_title_img h2{
+	font-size:16px;
+	width:100%;
+	padding:10px 0;
+}
+.header_lp_title_img h3{
+	width:100%;
+	font-size:13px;
+}
+header {
+	border:none !important;
+}
+#share_email_footer_show{
+	display:none !important;
+}
+#to_pc_icon {
+    width: 30% !important;
+}
+a.consultant_img_index img{
+	width:100%;
+}
+.form_campaign_group{
+	
+}
+.group_txt_form {
+    margin: 20px 0;
+	border-bottom: 2px solid #e6e6e6;
+}
+.group_txt_form input[type="text"], .group_txt_form textarea, .group_txt_form select {
+    background-color: #FFF;
+    border: medium none;
+    border-radius: 3px;
+    padding: 5px 1%;
+    width: 98%;
+}
+input[type="text"], input[type="radio"], textarea, select {
+    border: 1px solid #CCC !important;
+}
+.group_txt_form select {
+    padding: 2px 1% !important;
+	margin: 0 0 20px 0;
+}
+.group_txt_form .input_form {
+    width: 100%;
+}
+.group_txt_form .input_5 {
+    text-align: center;
+    width: 4%;
+}
+.group_txt_form .input_50 {
+    width: 49%;
+}
+.group_txt_form .input_70 {
+    width: 69%;
+}
+.group_txt_form .input_100 {
+    width: 100%;
+}
+.group_txt_form .input_20 {
+    width: 19%;
+}
+.group_txt_form .input_80 {
+    width: 79%;
+}
+.group_txt_form .input_30 {
+    width: 29%;
+}
+.group_txt_form .input_30_n {
+    width: 32%;
+}
+.group_txt_form .input_60_n {
+    width: 67%;
+}
+.group_txt_form .input_40_n {
+    width: 47%;
+}
+.input_radio_option .input_radio {
+    float: left;
+    width: 33.3%;
+}
+.input_radio input {
+    width: 20px;
+}
+.group_txt_form .input_other {
+    margin: 5px 0;
+}
+.group_txt_form .title_txt {
+    font-weight: bold;
+    margin: 8px 0;
+}
+.confirm_txt_submit {
+    background: none repeat scroll 0 0 #f2f2f2;
+    color: #353535;
+    padding: 7px 3%;
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}
+.bg_yellow {
+    background-color: #ab8d58;
+    padding: 1%;
+}
+.while_txt {
+    color: #fff;
+}
+span.notice {
+    color: red;
+    margin-left: 2px;
+}
+span.hi_notice {
+    color: #aaa;
+}
+.input_radio_option {
+    margin: 15px 0;
+}
+.title_notice {
+    margin: 20px 0 10px;
+    width: 100%;
+}
+.title_top_form {
+    font-size: 15px;
+    font-weight: bold;
+}
+.sub_title_top_form {
+}
+.form_back_button {
+    background: none repeat scroll 0 0 #b5b5b5;
+    border-radius: 5px;
+    color: #000;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    width: 26%;
+}
+.submit_form_button_campaign {
+    background: none repeat scroll 0 0 #990000;
+    border-radius: 5px;
+    float: right;
+    font-size: 15px;
+   
+    position: relative;
+    width: 100%;
+	margin:0px 0 20px 0;
+}
+.submit_form_button {
+    background: none repeat scroll 0 0 #990000;
+    border-radius: 5px;
+    float: right;
+    font-size: 15px;
+   
+    position: relative;
+    width: 70%;
+	
+}
+.submit_form_button .button-confirm {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+.arrow_back {
+    color: #000;
+    font-size: 27px;
+    font-weight: bold;
+    left: 5px;
+    position: absolute;
+    top: -2px;
+}
+.form_back_button a {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+.submit_form_button_campaign .button-confirm {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+.arrow_submit {
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    position: absolute;
+    right: 7px;
+    top: 11px;
+}
+.textError {
+    border: 1px solid #ff0000 !important;
+}
+.error {
+    color: red;
+    padding: 5px 0;
+}
+.confirm .group_txt_form .input_50 {
+    width: 43%;
+}
+.confirm .group_txt_form .input_100 {
+    width: 94%;
+}
+.confirm .group_txt_form .input_80 {
+    width: 73%;
+}
+.confirm .group_txt_form .input_70 {
+    width: 56%;
+}
+.confirm .group_txt_form .input_30 {
+    width: 30%;
+}
+.confirm .group_txt_form .input_40_n {
+    width: 41%;
+}
+.confirm .group_txt_form .input_20 {
+    width: 14%;
+}
+#icon-send-complete {
+    padding: 0 0 15px;
+}
+.form_title {
+    font-size: 12px;
+}
+.notice-entry-form {
+    border: 1px solid #f2f2f2;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 10px;
+}
+.form_campaign_group{
+	background:#F2F2F2;
+	border-top:3px solid #CCC;
+	border-bottom:3px solid #CCC;
+}
+.img_100,.img_100 img{
+	width:100%;
+	display:block;
+}
+.header_lp_title_img a img{
+	width:100%;
+	display:block;
+}
+.pd-tb{
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+.pd_b{
+	padding-bottom:0px !important;
+}
+.header_lp_title_img p.txt1{
+	padding:5px 0;
+}

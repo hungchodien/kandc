@@ -1,0 +1,45 @@
+/* CSS Document */
+/*Scroll*/
+ul#ticker_top_yes li {
+    float: left;
+}
+.mt-scroll.mt-round .mt-news a {
+    border-radius: 0;
+}
+.mt-news ul {
+    background-position: -1000px center;
+    background-repeat: no-repeat;
+    width: 50000px;
+}
+.mt-news li {
+    display: block;
+    float: left;
+}
+.mt-news a {
+    display: block;
+    float: left;
+    white-space: nowrap;
+	font-weight: bold;
+	line-height: 30px;
+    margin: 0;
+    padding: 0 5px;
+}
+.mt-news span {
+    float: left;
+	font-size: 13px !important;
+}
+.modern-ticker {
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+	line-height:30px;
+}
+.modern-ticker a {
+    text-decoration: none;
+}
+.modern-ticker ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+/*End Scroll*/

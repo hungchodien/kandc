@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*********************
+
+about
+
+*********************/
+* {
+	margin:0;
+	padding:0;
+	}
+	
+	
+
+html {
+	overflow-y:hidden;
+	overflow:hidden;
+	_width:600px;
+	}
+	
+#fancybox-outer {
+	border:2px solid #FF0;
+	}	
+
+body.popBody {
+	_text-align:center;
+	}
+	
+	
+	#popup {
+		padding:20px;
+		width:660px;
+		_width:600px;
+		_text-align:left;
+		}
+		
+	#popup .about_logo {
+			float:left;
+			width:130px;
+			margin:0px 20px 0px 0px;
+			}
+	#popup .about_text {
+			padding-left:150px;
+			}
+	#popup .officialLink {
+			background:url(../imgdir/common/icon_04.gif) no-repeat 0px 5px;
+			text-indent:15px;
+			}
+			
+			
+			
+	.popup {
+		padding:20px;
+		width:660px;
+		_width:600px;
+		_text-align:left;
+		}
+		
+	.popup .about_logo {
+			float:left;
+			width:130px;
+			margin:0px 20px 0px 0px;
+			}
+	.popup .about_text {
+			padding-left:150px;
+			}
+	.popup .officialLink {
+			background:url(../imgdir/common/icon_04.gif) no-repeat 0px 5px;
+			text-indent:15px;
+			}
+					
+	
+	
+	#popup2 {
+		padding:20px;
+		width:700px;
+		_width:650px;
+		_text-align:left;
+		}
+		
+	#popup2 .about_logo {
+			float:left;
+			width:120px;
+			margin:0px 20px 0px 0px;
+			}
+	#popup2 .about_text {
+			padding-left:150px;
+			}
+	#popup2 .officialLink {
+			background:url(../imgdir/common/icon_04.gif) no-repeat 0px 5px;
+			text-indent:15px;
+			}
+					
+					
+	#popup2 .about_text_left{
+		float:left;
+		width:265px;
+		padding-right:10px;
+		line-height:12px;
+	}
+	
+	#popup2 .about_text_right{
+		float:right;
+		width:265px;
+		line-height:12px;
+	}

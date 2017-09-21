@@ -1,0 +1,85 @@
+.formhead {
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+	padding-bottom: 20px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.odai1 {
+	text-align: right;
+	margin-left: 125px;
+	padding-top: 2px;
+	padding-right: 2px;
+	border: 1px solid #CCCCCC;
+	height: 50px;
+}
+.honbun {
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.nyuryoku {
+	border: 1px solid #CCCCCC;
+	margin-right: 80px;
+	margin-left: 80px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.togaki {
+	font-size: 11px;
+	color: #006666;
+}
+.hissu {
+	font-size: 11px;
+	color: #990000;
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.chui {
+	border: 1px dotted #CCCCCC;
+	padding: 5px;
+}
+.sousin {
+	margin-right: 80px;
+	margin-left: 80px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 20px;
+}
+.formtitle {
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-bottom-color: #CCCCCC;
+	border-left-width: 2px;
+	border-left-style: ridge;
+	border-left-color: #CCCCCC;
+}
+.formtitle1 {
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	padding-bottom: 5px;
+	border-bottom-color: #CCCCCC;
+	text-align: right;
+	padding-right: 5px;
+	border-right-width: 2px;
+	border-right-style: ridge;
+	border-right-color: #CCCCCC;
+	margin-bottom: 10px;
+}

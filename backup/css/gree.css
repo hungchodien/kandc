@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#topic-gree{
+	width:780px;
+	padding:10px 0 0 12px;
+	font-size:12px;
+	text-align:left;
+	line-height:18px;
+	color:#666;
+}
+
+
+#topic-gree .line{
+	border-top:solid 2px #009eda;
+	width:100%;
+	height:5px;
+}
+
+#topic-gree .line-5{
+	border-top:solid 5px #009eda;
+	width:100%;
+	height:5px;
+	clear:both;
+}
+
+#topic-gree .line-gray{
+	border-top:solid 1px #f2f2f2;
+	width:100%;
+	height:5px;
+}
+
+
+#topic-gree .name-img{
+	padding-bottom:10px;
+}
+
+
+
+#topic-gree .main-img{
+	padding-bottom:10px;
+}
+
+
+
+#topic-gree .read{
+	padding:30px 20px;
+	text-align:justify;
+	font-size:13px;
+	line-height:20px;
+}
+
+
+#topic-gree .contents{
+	padding:5px 20px 50px 20px;
+}
+
+#topic-gree .contents h2{
+	padding-top:30px;
+}
+
+
+
+.side-right img{
+	float:left;
+	margin:20px 20px 0 0;
+	width:200px;
+}
+
+
+.side-right-text{
+	float:left;	
+	width:510px;
+	margin-top:50px;
+}
+
+.side-right-text dt{
+	float:left;
+	font-weight:bold;
+}
+
+
+.side-right-text dd{
+	margin-left:180px;
+}
+
+
+
+.side-left img{
+	float:left;
+	margin:25px 0 0 20px;
+	width:200px;
+}
+
+
+.side-left-text{
+	float:left;	
+	width:510px;
+	margin-top:10px;
+}
+
+.side-left-text dt{
+	float:left;
+	font-weight:bold;
+}
+
+
+.side-left-text dd{
+	margin-left:180px;
+}
+
+
+
+
+
+
+#topic-gree dl{
+	padding:10px 0px;
+}
+
+
+#topic-gree dt{
+	float:left;
+	font-weight:bold;
+}
+
+#topic-gree dd{
+	margin-left:80px;
+}
+
+#topic-gree .inter-name{
+	color:#009eda;
+	font-weight:bold;
+}
+
+
+#topic-gree .inter-padding{
+	padding-top:30px;
+}
+
+
+#topic-gree .inter-padding2{
+	padding:10px 0 50px 0;
+}
+
+
+#topic-gree .clear{
+	clear:both;
+	padding:20px;
+}
+
+
+
+#topic-gree .pagenavi{
+	margin-bottom:5px;
+	clear:both;
+}
+
+
+#topic-gree  .button{
+	float:left;
+	margin-right:4px;
+}
+
+#topic-gree  .button_end{
+	float:right;
+}
+
+#topic-gree  .off{
+   background-position:bottom; /* 背景画像の表示開始基準を右上に変更 */
+}
+
+#topic-gree  a#nakanishi {
+   display: block;
+   width: 257px; 
+   height: 42px; 
+   text-indent: -10000px; 
+   background-image: url("../topics/gree2/img/page-nakanishi.gif"); 
+}
+
+#topic-gree  a#nakanishi:hover {
+   background-position:bottom; 
+}
+
+
+#topic-gree  a#ibaraki {
+   display: block;
+   width: 257px; 
+   height: 42px; 
+   text-indent: -10000px; 
+   background-image: url("../topics/gree2/img/page-ibaraki.gif"); 
+}
+
+#topic-gree  a#ibaraki:hover {
+   background-position:top; 
+}
+
+
+#topic-gree  a#adachi {
+   display: block;
+   width: 257px; 
+   height: 42px; 
+   text-indent: -10000px; 
+   background-image: url("../topics/gree2/img/page-adachi.gif"); 
+}
+
+#topic-gree  a#adachi:hover {
+   background-position:top; 
+}

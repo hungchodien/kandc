@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {text-align:center;background:#592f05 url(https://www.kandc.com/imgdir/common/bg_noise.gif) repeat;margin:3px 0 0;}
+img {border:0;}
+
+.center {text-align:center;}
+
+div#container {
+	background:#fff;background-image:none;margin:6px auto 0;padding:10px 0 0;
+	box-shadow: 0 0 5px #000; 
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+}
+
+h2.mmjtitle {height:70px;min-height:70px;line-height:1.6em;font-size:14px;padding:0 0 0 37px;text-indent:0;color:#fff; text-align:left;margin:10px 20px 25px 20px; background:url(https://www.kandc.com/imgdir/topics/consul.gif) no-repeat left top;}
+h2.mmjtitle span {position:relative;top:13px;}
+
+div#readBox {position:relative;}
+p.read {text-align:left;margin:0 0 18px 25px;line-height:160%;}
+p.read span {font-size:10px;line-height:140%;color:#666;}
+
+div#readBox div.readLogo {position:absolute;right:25px;top:0px;line-height:100%;background:url(https://kandc.com/imgdir/common/go_detail.gif) no-repeat 0 3px; text-indent:11px;}
+
+#joblist {text-align:center;}
+
+
+.scout_set_btn_detail{position:absolute; right:2px;top:3px;}
+
+
+
+
+#scout_set_detail {position:relative;text-align:left; padding:0; margin:0 25px 20px;background:#fff;border:0;width:750px;}
+#scout_set_detail table {margin-bottom:0px;width:100%;}
+
+#scout_set_detail h4{font-size:14px;margin:0;background:#F1F0DE url(https://www.kandc.com/imgdir/common/go_detail.gif) no-repeat 5px 10px; text-indent:15px;line-height:29px; height:29px;}
+#scout_set_detail em{color:#B10C00; font-weight:bold; margin-left:10px;font-size:12px;font-style:normal;}
+
+
+.jobBox {margin-bottom:40px;}
+
+.scout_set_tb {font-size:1em; text-align:left; border-collapse:collapse; margin:0; line-height:160%; clear:both; border:1px solid #CAC29B;}
+.scout_set_tb th {border:1px solid #CAC29B;background:#FBFCEE;padding:4px 6px;font-weight:bold;white-space: nowrap; }
+.scout_set_tb th.head {padding:0;}
+.scout_set_tb td {border:1px solid #CAC29B;padding:4px 6px; background:#FFFFFF;}
+
+
+.scout_set_tb th dl { margin:0; padding:0;}
+.scout_set_tb th dl dt { margin:0; padding:0; float:left;}
+.scout_set_tb th dl dd { margin:0; padding:0; float:right;}
+.scout_set_tbnone {border:none; width:99%; text-align:left;line-height:12px;font-size:12px;}
+.scout_set_tbnone th {border:none; font-weight:normal;width:20%;border-collapse:collapse;background-color:#FFFFFF;padding:0;}
+.scout_set_tbnone td {border:none; border-collapse:collapse;padding:2px 0;}
+
+.scout_set_tb hr {border:1px solid #EAE9D6;background:#F5F6E8;padding:1px 0 0 0;margin:7px 0;}
+
+
+.pagetop_scout { text-align:right;padding-bottom:20px;}
+.pagetop_scout a {font-size:12px;color:#000;line-height:20px;background:url(https://www.kandc.com/imgdir/common/pagetop.gif) no-repeat 0 4px; text-indent:12px;padding:0 10px 0 12px;}
+
+
+#inquiryBox {background:url(https://www.kandc.com/imgdir/common/mmj_bg_noise.gif);margin:0;padding:20px;position:relative;
+border:1px solid #cac29b;
+border-top:0;
+	/*box-shadow:inset 0 0 5px #cac29b; 
+	-moz-box-shadow:inset 0 0 5px #cac29b;
+	-webkit-box-shadow:inset 0 0 5px #cac29b;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; /* CSS3 */
+}
+
+#inquiryBox #txt {float:left;margin:0 30px 0 0;}
+#inquiryBox #cursor {margin:6px 30px 0 0;float:left;}
+#inquiryBox #button {margin:1px 0 0 0;}
+
+a:hover img.alpha {filter:alpha(opacity=70); -moz-opacity:0.80; -khtml-opacity: 0.80; opacity:0.80; }
+
+
+.scout_catlist{ background:#F7F7F7; border-top:1px solid #CCCCCC; border-left:1px solid #CCCCCC; border-bottom:1px solid #aaa; border-right:1px solid #aaa;margin-bottom:10px;height:120px; width:740px; padding:5px; margin:0 auto;}
+.scout_catlist div.title{position:relative;border-right:1px dotted #aaa;height:120px; width:110px;min-height:120px;line-height:120px;float:left;text-align:left;}
+.scout_catlist div.title img {position:absolute; top:4px;left:4px;}
+
+.scout_catlist ul{ width:570px; float:left; margin-left:10px;}
+.scout_catlist li{ width:190px; float:left;display:block; line-height:20px; height:20px; text-align:left;font-size:12px;background:#F7F7F7 url(https://www.kandc.com/imgdir/scout/scout_catlist_list.gif) no-repeat 2px -3px; text-indent:13px;font-size:10px;}
+.scout_catlist li a{color:#000000;}
+.scout_catlist li.large{width:200px;}
+
+
+div#footer {border-top:0;}
+
+
+dl#urlList {text-align:left;margin:0 25px;padding:0 0 10px;}
+dl#urlList dt {font-weight:bold;margin:0 0 3px;}
+dl#urlList dd {margin:0 0 25px;}

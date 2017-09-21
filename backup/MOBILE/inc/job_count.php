@@ -1,0 +1,1 @@
+<div class="publish-job">公開求人 <span class="look-span"><?php  $total_job_public=GetCountJob(); echo $total_job_public; ?></span> 件&nbsp;/&nbsp;非公開求人<span class="look-span"><?php $total_job_private=$total_job_public*2.1; echo  (int)$total_job_private;?></span> 件</div>

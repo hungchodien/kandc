@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5048c80e-62ef-4718-82da-56fa59b8b4f8" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/k-highclass/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="494" column="77" lean-forward="false" selection-start-line="494" selection-start-column="77" selection-end-line="494" selection-end-column="77" />
+              <folding>
+                <element signature="e#19769#19795#0#HTML" expanded="true" />
+                <element signature="e#20919#20942#0#HTML" expanded="true" />
+                <marker date="1505990057890" expanded="true" signature="2905:2979" ph="..." />
+                <marker date="1505990057890" expanded="true" signature="2941:2969" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validate_form_entry-v21092017.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/overseas/validate_form_entry-v21092017.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-v21092017.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/overseas/index-v21092017.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1503052680000" expanded="true" signature="2799:2873" ph="..." />
+                <marker date="1503052680000" expanded="true" signature="2835:2863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/overseas/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="524" column="77" lean-forward="false" selection-start-line="524" selection-start-column="77" selection-end-line="524" selection-end-column="77" />
+              <folding>
+                <element signature="e#21281#21307#0#HTML" expanded="true" />
+                <element signature="e#22406#22429#0#HTML" expanded="true" />
+                <marker date="1505990273188" expanded="true" signature="2799:2873" ph="..." />
+                <marker date="1505990273188" expanded="true" signature="2835:2863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validate_form_entry.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landing/overseas/validate_form_entry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="403" column="57" lean-forward="true" selection-start-line="403" selection-start-column="57" selection-end-line="403" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$re13</find>
+      <find>lan</find>
+      <find>text9</find>
+      <find>errortext8</find>
+      <find>top_lb_content_1</find>
+      <find>半角文字でお間違いのないようご入力ください</find>
+      <find>index.php</find>
+      <find>text8</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/landing/fbcollege-c-kreis/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fbconsultant/index.php" />
+        <option value="$PROJECT_DIR$/landing/fbconsultant/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fbconsultant-kreis/index-v2.php" />
+        <option value="$PROJECT_DIR$/landing/fbconsultant-kreis/index.php" />
+        <option value="$PROJECT_DIR$/landing/fbconsultant-kreis/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fbheadhunting/index.php" />
+        <option value="$PROJECT_DIR$/landing/fbheadhunting/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fbincome/index-v2.php" />
+        <option value="$PROJECT_DIR$/landing/fbincome/index.php" />
+        <option value="$PROJECT_DIR$/landing/fbincome/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fbincome-kreis/index.php" />
+        <option value="$PROJECT_DIR$/landing/fbincome-kreis/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fblistedcompany/index-v2.php" />
+        <option value="$PROJECT_DIR$/landing/fblistedcompany/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/fblistedcompany-kreis/index.php" />
+        <option value="$PROJECT_DIR$/landing/fblistedcompany-kreis/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/headhunter-a/entry/index.php" />
+        <option value="$PROJECT_DIR$/landing/headhunter-a/entry/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/headhunter-a/short/index-v2.php" />
+        <option value="$PROJECT_DIR$/landing/headhunter-a/short/index.php" />
+        <option value="$PROJECT_DIR$/landing/headhunter-a/short/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/headhunter-b/entry/index.php" />
+        <option value="$PROJECT_DIR$/landing/headhunter-b/entry/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/headhunter-b/short/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/headhunter-b/short/index.php" />
+        <option value="$PROJECT_DIR$/landing/highclass-a/entry/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/highclass-a/entry/index.php" />
+        <option value="$PROJECT_DIR$/landing/highclass-a/short/index.php" />
+        <option value="$PROJECT_DIR$/landing/highclass-a/short/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/highclass-b/entry/index.php" />
+        <option value="$PROJECT_DIR$/landing/highclass-b/entry/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/highclass-b/short/index.php" />
+        <option value="$PROJECT_DIR$/landing/highclass-b/short/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-25y35ycareer/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-25y35ycareer/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-agency/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-agency/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-agent/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-agent/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-corporate-planning/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-corporate-planning/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-executive/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-executive/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-headhunting/validate_form_entry-v2.js" />
+        <option value="$PROJECT_DIR$/landing/k-headhunting/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/k-headhunting/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-highclass/index.php" />
+        <option value="$PROJECT_DIR$/landing/k-highclass/validate_form_entry.js" />
+        <option value="$PROJECT_DIR$/landing/overseas/index.php" />
+        <option value="$PROJECT_DIR$/landing/overseas/validate_form_entry.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landing" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\kandc\mobile\landing\overseas" />
+      <recent name="F:\xampp\htdocs\kandc\mobile\landing\k-highclass" />
+      <recent name="F:\xampp\htdocs\kandc\mobile\landing\k-headhunting" />
+      <recent name="F:\xampp\htdocs\kandc\mobile\landing\k-executive" />
+      <recent name="F:\xampp\htdocs\kandc\mobile\landing\k-corporate-planning" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5048c80e-62ef-4718-82da-56fa59b8b4f8" name="Default" comment="" />
+      <created>1505961497788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505961497788</updated>
+      <workItem from="1505961499264" duration="25731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25731000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.200625" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/landing/headhunter-b/short/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="498" column="193" lean-forward="false" selection-start-line="498" selection-start-column="193" selection-end-line="498" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/headhunter-b/short/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="406" column="77" lean-forward="false" selection-start-line="406" selection-start-column="77" selection-end-line="406" selection-end-column="77" />
+          <folding>
+            <element signature="e#21514#21540#0#HTML" expanded="true" />
+            <element signature="e#22665#22688#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/entry/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/entry/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/entry/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="382" column="77" lean-forward="false" selection-start-line="382" selection-start-column="77" selection-end-line="382" selection-end-column="77" />
+          <folding>
+            <element signature="e#19981#20007#0#HTML" expanded="true" />
+            <element signature="e#21108#21131#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/entry/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="499" column="193" lean-forward="false" selection-start-line="499" selection-start-column="193" selection-end-line="499" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/short/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/short/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/short/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="406" column="77" lean-forward="false" selection-start-line="406" selection-start-column="77" selection-end-line="406" selection-end-column="77" />
+          <folding>
+            <element signature="e#21556#21582#0#HTML" expanded="true" />
+            <element signature="e#22683#22706#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-a/short/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="498" column="193" lean-forward="false" selection-start-line="498" selection-start-column="193" selection-end-line="498" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/entry/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/entry/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/entry/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="381" column="77" lean-forward="false" selection-start-line="381" selection-start-column="77" selection-end-line="381" selection-end-column="77" />
+          <folding>
+            <element signature="e#19979#20005#0#HTML" expanded="true" />
+            <element signature="e#21129#21152#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/entry/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="501" column="13" lean-forward="true" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/short/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/short/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/short/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="499" column="193" lean-forward="false" selection-start-line="499" selection-start-column="193" selection-end-line="499" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/highclass-b/short/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="405" column="77" lean-forward="false" selection-start-line="405" selection-start-column="77" selection-end-line="405" selection-end-column="77" />
+          <folding>
+            <element signature="e#21560#21586#0#HTML" expanded="true" />
+            <element signature="e#22710#22733#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-25y35ycareer/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-25y35ycareer/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497516180000" expanded="true" signature="2803:2877" ph="..." />
+            <marker date="1497516180000" expanded="true" signature="2839:2867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-25y35ycareer/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="405" column="142" lean-forward="false" selection-start-line="405" selection-start-column="142" selection-end-line="405" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-25y35ycareer/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="486" column="77" lean-forward="false" selection-start-line="486" selection-start-column="77" selection-end-line="486" selection-end-column="77" />
+          <folding>
+            <element signature="e#19649#19675#0#HTML" expanded="true" />
+            <element signature="e#20774#20797#0#HTML" expanded="true" />
+            <marker date="1505989032739" expanded="true" signature="2803:2877" ph="..." />
+            <marker date="1505989032739" expanded="true" signature="2839:2867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agency/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agency/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="470" column="99" lean-forward="false" selection-start-line="470" selection-start-column="94" selection-end-line="470" selection-end-column="99" />
+          <folding>
+            <marker date="1497516180000" expanded="true" signature="2920:2994" ph="..." />
+            <marker date="1497516180000" expanded="true" signature="2956:2984" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agency/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="492" column="77" lean-forward="false" selection-start-line="492" selection-start-column="77" selection-end-line="492" selection-end-column="77" />
+          <folding>
+            <element signature="e#19789#19815#0#HTML" expanded="true" />
+            <element signature="e#20914#20937#0#HTML" expanded="true" />
+            <marker date="1505989177889" expanded="true" signature="2920:2994" ph="..." />
+            <marker date="1505989177889" expanded="true" signature="2956:2984" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agency/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="403" column="143" lean-forward="false" selection-start-line="403" selection-start-column="143" selection-end-line="403" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agent/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agent/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <marker date="1497516240000" expanded="true" signature="2934:3008" ph="..." />
+            <marker date="1497516240000" expanded="true" signature="2970:2998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-corporate-planning/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-corporate-planning/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497516240000" expanded="true" signature="2884:2958" ph="..." />
+            <marker date="1497516240000" expanded="true" signature="2920:2948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agent/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="493" column="77" lean-forward="false" selection-start-line="493" selection-start-column="77" selection-end-line="493" selection-end-column="77" />
+          <folding>
+            <marker date="1505989380958" expanded="true" signature="2934:3008" ph="..." />
+            <marker date="1505989380958" expanded="true" signature="2970:2998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-corporate-planning/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="492" column="77" lean-forward="false" selection-start-line="492" selection-start-column="77" selection-end-line="492" selection-end-column="77" />
+          <folding>
+            <element signature="e#19792#19818#0#HTML" expanded="true" />
+            <element signature="e#20942#20965#0#HTML" expanded="true" />
+            <marker date="1505989556463" expanded="true" signature="2884:2958" ph="..." />
+            <marker date="1505989556463" expanded="true" signature="2920:2948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-agent/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="407" column="29" lean-forward="true" selection-start-line="407" selection-start-column="29" selection-end-line="407" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-corporate-planning/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="390" column="12" lean-forward="true" selection-start-line="390" selection-start-column="12" selection-end-line="390" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-executive/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-executive/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-executive/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="404" column="143" lean-forward="false" selection-start-line="404" selection-start-column="143" selection-end-line="404" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-executive/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="492" column="77" lean-forward="false" selection-start-line="492" selection-start-column="77" selection-end-line="492" selection-end-column="77" />
+          <folding>
+            <element signature="e#19780#19806#0#HTML" expanded="true" />
+            <element signature="e#20930#20953#0#HTML" expanded="true" />
+            <marker date="1505989731484" expanded="true" signature="2914:2988" ph="..." />
+            <marker date="1505989731484" expanded="true" signature="2950:2978" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-headhunting/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-headhunting/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-headhunting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="489" column="77" lean-forward="false" selection-start-line="489" selection-start-column="77" selection-end-line="489" selection-end-column="77" />
+          <folding>
+            <element signature="e#19681#19707#0#HTML" expanded="true" />
+            <element signature="e#20831#20854#0#HTML" expanded="true" />
+            <marker date="1505989978282" expanded="true" signature="2811:2885" ph="..." />
+            <marker date="1505989978282" expanded="true" signature="2847:2875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-headhunting/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="391" column="45" lean-forward="true" selection-start-line="391" selection-start-column="45" selection-end-line="391" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-highclass/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-highclass/index-v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1497516300000" expanded="true" signature="2905:2979" ph="..." />
+            <marker date="1497516300000" expanded="true" signature="2941:2969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/overseas/validate_form_entry-v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-highclass/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="403" column="142" lean-forward="false" selection-start-line="403" selection-start-column="142" selection-end-line="403" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/k-highclass/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="494" column="77" lean-forward="false" selection-start-line="494" selection-start-column="77" selection-end-line="494" selection-end-column="77" />
+          <folding>
+            <element signature="e#19769#19795#0#HTML" expanded="true" />
+            <element signature="e#20919#20942#0#HTML" expanded="true" />
+            <marker date="1505990057890" expanded="true" signature="2905:2979" ph="..." />
+            <marker date="1505990057890" expanded="true" signature="2941:2969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/overseas/validate_form_entry-v21092017.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/overseas/index-v21092017.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503052680000" expanded="true" signature="2799:2873" ph="..." />
+            <marker date="1503052680000" expanded="true" signature="2835:2863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/overseas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="524" column="77" lean-forward="false" selection-start-line="524" selection-start-column="77" selection-end-line="524" selection-end-column="77" />
+          <folding>
+            <element signature="e#21281#21307#0#HTML" expanded="true" />
+            <element signature="e#22406#22429#0#HTML" expanded="true" />
+            <marker date="1505990273188" expanded="true" signature="2799:2873" ph="..." />
+            <marker date="1505990273188" expanded="true" signature="2835:2863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/overseas/validate_form_entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="403" column="57" lean-forward="true" selection-start-line="403" selection-start-column="57" selection-end-line="403" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

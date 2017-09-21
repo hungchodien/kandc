@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /mobile/landing/agent-a/entry/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+
+

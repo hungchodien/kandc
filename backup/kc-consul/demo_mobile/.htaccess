@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /demo_mobile/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+

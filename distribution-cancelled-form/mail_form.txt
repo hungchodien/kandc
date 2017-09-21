@@ -1,0 +1,4 @@
+{user_email}
+{delivery_content1}
+{delivery_content2}
+{delivery_content3}

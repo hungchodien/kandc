@@ -1,0 +1,80 @@
+.pic {
+	padding-left: 20px;
+	float: left;
+}
+.dai {
+	padding-left: 10px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+.atama {
+	font-size: 11px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-left: 100px;
+	padding-top: 10px;
+	color: #006699;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.atama1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	clear: both;
+	padding-left: 10px;
+	padding-right: 5px;
+	line-height: 1.3em;
+	font-weight: bold;
+	height: auto;
+}
+.cate1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+	width: 250px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+.cate2 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	margin-left: 250px;
+	width: 250px;
+}
+.cate3 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+	width: 250px;
+	padding-left: 30px;
+	margin-top: 5px;
+}
+.cate4 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	width: 250px;
+	margin-left: 250px;
+}
+.atama2 {
+	font-size: 11px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 80px;
+	color: #006699;
+}

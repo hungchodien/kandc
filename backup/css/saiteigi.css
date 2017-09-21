@@ -1,0 +1,38 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+a:visited {
+	color: #666666;
+}
+a:active {
+	color: #990000;
+}
+a:link {
+	color: #000000;
+}
+h2 {
+	margin: 0px;
+}
+p {
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+address {
+	font-size: 11px;
+	font-style: normal;
+	letter-spacing: 1px;
+	color: #666666;
+	padding-left: 220px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}

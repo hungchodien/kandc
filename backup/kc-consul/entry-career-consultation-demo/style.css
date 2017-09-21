@@ -1,0 +1,111 @@
+/* CSS Document */
+.group_error {
+	position:relative;
+}
+.group_error .error {
+	display:block;
+	line-height:18px;
+}
+.group_error #errortext2 {
+	margin-top:-18px;
+}
+.group_error #errortext4 {
+	margin-top:-18px;
+}
+.group_error #errortext6, .group_error #errorselect2 {
+	margin-top:-18px;
+}
+.group_error #errortext7, .group_error #errorselect3 {
+	margin-top:-18px;
+}
+.phone div {
+	line-height:inherit !important;
+}
+.error {
+	color: red;
+	left: inherit;
+	padding: 2px 0;
+	position: relative;
+	top: inherit;
+}
+.error-box, .check_email_error, .check_number_error {
+	position: absolute;
+	background: #677379;
+	top:-35px;
+	left:0;
+	color:#FFF;
+	padding:3px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height:18px;
+}
+.error-box:after, .check_email_error:after, .check_email_error:before, .check_number_error:after, .check_number_error:before {
+	top: 100%;
+	left: 20px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.fone_error_1:after, .fone_error_1:before {
+	left: 120px !important;
+}
+.fone_error_2:after, .fone_error_2:before {
+	left: 230px !important;
+}
+.error-box:after, .check_email_error:after, .check_number_error:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #677379;
+	border-width: 6px;
+	margin-left: -6px;
+}
+.check_email_error:before, .check_number_error:before {
+}
+#errortext1:before, #errortext1:after {
+	left: 50px !important;
+}
+#errortext2:before, #errortext2:after {
+	left: 170px !important;
+}
+
+#errortext3:before, #errortext3:after {
+	left: 50px !important;
+}
+#errortext4:before, #errortext4:after {
+	left: 170px !important;
+}
+.error_box34{
+	left:25px !important;
+}
+.error_select1{
+	left: 50px !important;
+}
+.error_select2{
+	left: 170px !important;
+}
+.error_select3{
+	left: 300px !important;
+}
+.error_box9{
+	top:-4px !important;
+}
+.error_text19{
+	top:-35px !important;
+	left:-10px !important;
+}
+.error_select4{
+	top:-35px !important;
+	left:-10px !important;
+}
+iframe, frame, frameset {
+    display: none !important;
+	height:0 !important;
+}
+.footer_entry_frm {
+    font-size: 11px;
+    padding: 20px 25px 15px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+RewriteEngine On
+RewriteBase /project_php/kandc/kreis-v2/kc-consul/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^([^/]*)\.html$ index.php?page=$1 [L]
+RewriteRule ^contact/([^/]*)\.html$ index.php?page=contact&cmd=$1 [L]
+RewriteRule ^seminar/([^/]*)\.html$ index.php?page=seminar&views=$1 [L]
+RewriteRule ^interview/([^/]*)\.html$ index.php?page=interview&list=$1 [L]
+RewriteRule ^interview/([^/]*)/([^/]*)\.html$ index.php?page=interview&list=$1&show=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)\.html$ index.php?page=$1&sid=$2 [L]
+
+#category-job
+RewriteRule ^category/job_group/([0-9]+)\.html$ index.php?page=category&hcm=$1 [L]
+RewriteRule ^category/list/([0-9]+)\.html$ index.php?page=category&list=$1 [L]
+RewriteRule ^category/list/([0-9]+)/page/([^/]*)\.html$ index.php?page=category&list=$1&currentpage=$2 [L]
+
+RewriteRule ^category/high_class/all/page/([^/]*)\.html$ index.php?page=category&high_class=all&currentpage=$1 [L]
+
+RewriteRule ^category/high_class/([0-9]+)/page/([^/]*)\.html$ index.php?page=category&high_class=$1&currentpage=$2 [L]
+
+RewriteRule ^category/high_class/([^/]*)\.html$ index.php?page=category&high_class=$1 [L]
+RewriteRule ^jobinfo/([^/]*)/([^/]*)\.html$ index.php?page=jobinfo&sid=$1&cate=$2 [L]
+
+#search
+RewriteRule ^search/([^/]*)/page/([^/]*)/([^/]*)$  index.php?page=search&category_select=$1&currentpage=$2&s=$3 [L]
+RewriteRule ^search/page/([^/]*)/([^/]*)$  index.php?page=search&currentpage=$1&s=$2 [L]
+RewriteRule ^search/([^/]*)/page/([^/]*)$  index.php?page=search&category_select=$s1&currentpage=$2 [L]
+#search all
+
+RewriteRule ^search/all/([^/]*)$  index.php?page=search&cmd=all&s=$1 [L]
+
+
+DirectoryIndex index.php index.html .ht
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html

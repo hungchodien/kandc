@@ -1,0 +1,32 @@
+【氏名】             {txt1} {txt2}
+【フリガナ】           {txt3} {txt4}              
+【生年月日】           {select1}年 {select2}月 {select3}日 {age_use}歳
+【住所】               
+.                      {select4}
+.
+【TEL1】               {txt5}-{txt6}-{txt7}（携帯）
+【Email】              {txt8}（自宅）
+【ご希望のポジション】     {radio1}  {txt10}
+【お問合せ内容】         {txt11}
+【媒体】                {select5}
+【その他】                {txt12}
+.                         {select6}
+
+.
+
+【経歴書】             {filename1}
+.                         {filename2}
+
+-- 
+
+
+https://www.kandc.com/exe/entry/
+
+----------------------------------------------------------------------
+
+Browser: {browser}.
+ComputerName: {computername}.
+IP: {ip}
+-
+{title}
+-

@@ -1,0 +1,40 @@
+.e {
+	float: left;
+	width: 60px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.bun {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 11px;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.syosai_main {
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	padding: 2px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	color: #CC6600;
+	text-align: center;
+	background-color: #E6E6FA;
+}
+.e1 {
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 180px;
+}

@@ -1,0 +1,137 @@
+.kyujin {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+}
+.index {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-top: 5px;
+	height: auto;
+}
+.list {
+	text-align: right;
+	margin-bottom: 10px;
+}
+.category {
+	font-size: 13px;
+	float: left;
+	width: 330px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-left-width: 8px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+.total {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	margin-left: 330px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.job {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	float: left;
+	width: 275px;
+	margin-left: 40px;
+	height: auto;
+}
+.no {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	float: left;
+	height: auto;
+	width: 40px;
+}
+.point {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	clear: both;
+	width: auto;
+	margin-left: 320px;
+}
+.hyoji {
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-image: url(#E6E6FA);
+}
+.mae {
+	float: left;
+	height: auto;
+	width: auto;
+}
+.tsugi {
+	height: auto;
+	width: auto;
+	float: right;
+}
+.page {
+	float: left;
+	height: auto;
+	width: auto;
+}
+.pagetop {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.position {
+	font-weight: bold;
+	color: #000000;
+}
+.indexlast {
+	margin-right: 20px;
+	margin-left: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	height: auto;
+}
+.index1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-top: 20px;
+	height: auto;
+}

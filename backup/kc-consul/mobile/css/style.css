@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/* CSS Document */
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,700);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	
+}
+:focus {
+	/* remember to define focus styles! */
+    outline: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {text2
+	/* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+	display: block;
+}
+img {
+	border: 0;
+	max-width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a {
+	color: #444;
+	text-decoration: none;
+}
+/*a img:hover
+{
+opacity:0.8;
+filter:alpha(opacity=80); 
+}
+*/
+/*page
+----------------------------------------------------*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2 !important;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight:normal;
+	color: #333;
+}
+.l{
+	float:left;
+	
+}
+.r{
+	float:right;
+}
+.b{
+	font-weight:bold;
+}
+.bdr{
+	border-right:1px #CCC solid;
+}
+.bdl{
+	border-left:1px #CCC solid;
+}
+.bdt{
+	border-top:1px #CCC solid;
+}
+.bdb{
+	border-bottom:1px #CCC solid;
+}
+.bd_all{
+	border:1px #CCC solid;
+}
+.mr_auto{
+	width:90%;
+	padding:0 5%;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+header{
+	width:100%;
+	display:block;
+}
+.header_top{
+	background:#000;
+	
+}
+.header_top h1{
+	padding:3px 0;
+}
+.header_top h1 a{
+	color:#FFF;
+	font-size:10px;
+}
+.header_logo .group_header_logo{
+	padding:10px 0 5px;
+}
+.header_logo .group_header_logo a img{
+	width:100%;
+}
+.header_logo .group_header_logo p{
+	padding:3px 0;
+	font-size:10px;
+}
+footer{
+	width:100%;
+	display:block;
+	font-size:10px;
+	line-height:12px;
+}
+footer .footer_logo{
+	padding:10px 0px 10px 20px;
+}
+
+.footer_group_link1{
+	width:100%;
+	padding:0 0 10px 0;
+	margin:0;
+}
+.footer_link_1 {
+	padding:0 0 0 10px;
+}
+.footer_link_2 h3,.footer_link_1 h3{
+	padding:15px 0 10px 0px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+}
+.footer_row_1{
+	width:40%;
+}
+.footer_row_2{
+	width:55%;
+}
+.footer_group_link1 li{
+	padding:5px 0 0 0;
+}
+.footer_group_link1 li a{
+	text-transform:uppercase;
+}
+.footer_link_2{
+	padding:10px;
+}
+.footer_link_2 li{
+	float:left;
+	width:40%;
+	}
+.footer_link_2 li:nth-child(2){
+	padding:0 2%;
+}
+.copyright{
+	padding:10px 0 20px 0;
+	/*text-transform:uppercase;*/
+	font-size:8px;
+	line-height:12px;
+}
+article.top_landing{
+	width:100%;
+	position:relative;
+}
+article.top_landing img{
+	width:100%;
+	
+}
+.top_landing_sl{
+	position:absolute;
+	top:15%;
+	left:33%;
+	margin-right:5%;
+	
+}
+.top_landing_tbl{
+	position:absolute;
+	bottom:6%;
+	left:0;
+	padding:0 5%;
+	width:90%;
+}
+.white{
+	color:#FFF;
+}
+.top_landing_sl p{
+	color:#b39f68;
+	padding:10px 0 0 0;
+}
+.top_landing_sl p:last-child{
+	color:#FFF !important;
+	font-weight:bold;
+}
+.bd_green_t{
+	border-top:3px #b39f68 solid;
+}
+.bd_green_b{
+	border-bottom:3px #b39f68 solid;
+}
+article.feature_link{
+	background:#F2F2;
+}
+article .feature1{
+	padding:10px 0 5px 0;
+}
+article .feature2{
+	padding:5px 0 5px 0;
+}
+article .feature3{
+	padding:5px 0 10px 0;
+}
+article.feature_link a{
+	display:block;
+}
+article .feature1 a img,article .feature2 a img,article .feature3 a img{
+	width:100%;
+	height:auto;
+}
+article.feature_content1{
+	background:#FFF;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.feature_txt{
+	line-height:1.7;
+	padding:20px 0;
+}
+.feature_content2_body{
+	background:#FFF;
+}
+.feature_content1 img,.feature_content2_tbl a img,.feature_content2_body a img{
+	width:100%;
+	height:auto;
+}
+.feature_content2_tbl{
+	padding:20px 0;
+	width:100%;
+}
+.feature_content2_top{
+	padding:20px 0 0 0;
+}
+article.feature_content3{
+	background:#FFF;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.feature_content3 .note_feature3 {
+    border: 1px solid #AB9D6B;
+    border-radius: 10px;
+    background: #F2F2F2;
+    margin: 10px 0px 30px;
+    padding: 10px;
+}
+.note_feature3 h3 {
+    font-weight: bold;
+    line-height: 25px;
+}
+.feature_content3 .bg_wood{
+	background:url(../img/landing/features3-bg-gcdf-kreis.png) repeat 0 0;
+	display:block;
+	width:100%;
+	height:auto;
+}
+.group_wood_in{
+	padding:2%;
+	width:96%;
+}
+.left_in_wood{
+	width:49%;
+	float:left;
+}
+.right_in_wood{
+	width:49%;
+	float:right;
+}
+.feature_content3 .bg_wood img{
+	width:100%;
+}
+.feature_content3_tbl{
+	width:100%;
+	padding:20px 0;
+}
+.feature_content3_tbl img{
+	width:100%;
+	height:auto;
+}
+article.feature_massage{
+	padding:20px 0;
+	
+	}
+.feature_message_tbl{
+	margin:20px 0;
+}
+.feature_message_tbl img{
+	width:100%;
+	height:auto;
+}
+article.feature_content_d{
+	padding:20px 0;
+}
+/* Clearfix
+-----------------------------------------*/
+ .clear {
+	zoom: 1;
+}
+ .clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}

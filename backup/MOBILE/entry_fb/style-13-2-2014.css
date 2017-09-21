@@ -1,0 +1,196 @@
+/* CSS Document */
+
+.group_txt_form {
+	margin:20px 0;
+}
+.group_txt_form input, .group_txt_form textarea, .group_txt_form select {
+	width:98%;
+	padding:5px 1%;
+	background-color:#b1dff8;
+	border: none;
+	border-radius: 3px;
+}
+.group_txt_form select {
+	padding:2px 1% !important;
+}
+.group_txt_form .input_form {
+	width:100%;
+}
+.group_txt_form .input_5 {
+	width:4%;
+	text-align:center;
+}
+.group_txt_form .input_50 {
+	width:49%;
+}
+.group_txt_form .input_70 {
+	width:69%;
+}
+.group_txt_form .input_100 {
+	width:100%;
+}
+.group_txt_form .input_20 {
+	width:19%;
+}
+.group_txt_form .input_80 {
+	width:79%;
+}
+.group_txt_form .input_30 {
+	width:29%;
+}
+.group_txt_form .input_30_n {
+	width:32%;
+}
+.group_txt_form .input_60_n {
+	width:67%;
+}
+.group_txt_form .input_40_n {
+	width:47%;
+}
+.input_radio_option .input_radio {
+	width: 33.3%;
+	float:left;
+}
+.input_radio input {
+	width:20px;
+}
+.group_txt_form .input_other {
+	margin:5px 0;
+}
+.group_txt_form .title_txt {
+	margin:8px 0;
+	font-weight:bold;
+}
+.confirm_txt_submit {
+	color:#353535;
+	background: #f2f2f2;
+	padding: 7px 3%;
+}
+.l {
+	float:left;
+}
+.r {
+	float:right;
+}
+.bg_yellow {
+	background-color:#AB8D58;
+	padding:1%;
+}
+.while_txt {
+	color:#FFF;
+}
+span.notice {
+	color:red;
+	margin-left:2px;
+}
+span.hi_notice {
+	color:#AAA;
+}
+.input_radio_option {
+	margin:15px 0;
+}
+.title_notice {
+	margin:20px 0 10px 0;
+	width:100%;
+}
+.title_top_form {
+	font-size:15px;
+	font-weight:bold;
+}
+.sub_title_top_form {
+}
+.form_back_button {
+	float:left;
+	background: none repeat scroll 0 0 #b5b5b5;
+	border-radius: 5px;
+	margin:0;
+	width:26%;
+	color:#000;
+	font-weight:bold;
+	position: relative;
+}
+.submit_form_button {
+	float:right;
+	background: none repeat scroll 0 0 #990000;
+	border-radius: 5px;
+	margin: 0px 0 0;
+	width: 72%;
+	font-size:15px;
+	position: relative;
+}
+.arrow_back {
+	color: #000;
+	font-size: 27px;
+	font-weight:bold;
+	position: absolute;
+	left: 5px;
+	top: -2px;
+}
+.form_back_button a {
+	display:block;
+	text-align:center;
+	line-height: 40px;
+}
+.submit_form_button .button-confirm {
+	border:0;
+	width:100%;
+	background:transparent;
+	float:left;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+	height: 40px;
+}
+.arrow_submit {
+	color:#FFF;
+	font-size: 27px;
+	font-weight:bold;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+.textError {
+	border:1px solid #FF0000 !important;
+}
+.error {
+	color:red;
+	left:20px;
+	position:relative;
+	top:5px;
+}
+.confirm .group_txt_form .input_50 {
+	width: 43%;
+}
+.confirm .group_txt_form .input_100 {
+	width: 94%;
+}
+.confirm .group_txt_form .input_80 {
+	width: 73%;
+}
+.confirm .group_txt_form .input_70 {
+	width: 56%;
+}
+.confirm .group_txt_form .input_30 {
+	width: 30%;
+}
+.confirm .group_txt_form .input_40_n {
+	width: 41%;
+}
+.confirm .group_txt_form .input_20 {
+	width: 14%;
+}
+#icon-send-complete {
+	padding: 0 0 15px 0;
+}
+.form_title {
+	font-size: 12px;
+}
+
+.notice-entry-form{
+	font-size:10px;
+	line-height:14px;
+	border:#f2f2f2 solid 1px;
+	padding:10px;
+}

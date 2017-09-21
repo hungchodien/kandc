@@ -1,0 +1,96 @@
+/* CSS Document */
+.end_check_radio{
+	display:block;
+	padding:10px 0;
+}
+.container_consent_question table.table_group_question td.col1{
+	width:25px;
+	text-align:center;
+	line-height:40px;
+	background:#f2f2f2;
+}
+.container_consent_question table.table_group_question td.col2{
+	line-height:40px;
+	font-weight:bold;
+	font-size:14px;
+}
+.container_consent_question table.table_group_question td.col3{
+	padding:15px 20px;
+}
+
+.container_consent_question table.table_group_question tr td.col_all{
+	line-height:40px;
+	text-align: center;
+	background:#f2f2f2;
+	font-weight:bold;
+}
+
+
+.container_consent_question{
+	display:block;
+	margin:20px 0 0 0;
+}
+.not_select{
+	color: red;
+}
+span.select_option{
+	font-weight:bold;
+}
+.entry_consent-nav-step .step_title {
+    font-size: 0;
+}
+
+.entry_consent-nav-step {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat 0 0;
+    display: block;
+    height: 61px;
+    width: 504px;
+}
+
+.entry_consent-nav-step1 {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -514px -62px;
+    display: block;
+    height: 61px;
+    width: 258px;
+}
+.entry_consent-nav-step1-none {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -514px 0px;
+    display: block;
+    height: 61px;
+    width: 258px;
+}
+.entry_consent-nav-step2 {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -773px 0;
+    display: block;
+    height: 61px;
+    width: 119px;
+}
+.entry_consent-nav-step2-active {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -773px -62px;
+    display: block;
+    height: 61px;
+    width: 119px;
+}
+.entry_consent-nav-step3 {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -892px 0;
+    display: block;
+    height: 61px;
+    width: 99px;
+}
+.entry_consent-nav-step3-active {
+    background: url("../../img/entry_question/process-questionnaire-consent.png") no-repeat -892px -62px;
+    display: block;
+    height: 61px;
+    width: 99px;
+}
+
+
+.label-asked2 {
+	padding: 15px 0;
+	/*border: 1px solid #D8D8D8;*/
+	margin-bottom: 10px;
+}
+
+.table-personal-profile2{
+	margin-top:15px;
+}

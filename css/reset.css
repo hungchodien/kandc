@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* ==============================================================
+
+	Style Reset
+	
+============================================================== */
+* {margin:0; padding:0;} 
+html{color:#333;background:#FFF;overflow-y:scroll;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align: bottom; border:none;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-weight:normal;font-style:normal;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+hr{display:none;}
+legend{color:#333;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+
+
+/* ==============================================================
+
+	Font Reset
+	
+============================================================== */
+body {font-size:12px; line-height:1.5em;}
+	* html body {font-family:"ＭＳ Ｐゴシック", sans-serif; font-size:75%;}/* for IE6 */
+	*+html body {font-family:"メイリオ", Meiryo, "ＭＳ Ｐゴシック"; font-size:75%;}/* for IE7 */
+	html>/**/body {font-family:"メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif; font-size: 75%;}/* for IE8 */
+	html:not(:target) body {font-size:12px; line-height:1.5em; font-family:"Lucida Sans Unicode","Lucida Grande",Arial,Helvetica,Hiragino Kaku Gothic Pro, "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ Ｐゴシック", sans-serif;}/* for modern browser not IE8(FF,safari,chrome,opera) */
+
+
+/* ==============================================================
+
+	Hyperlink Format
+	
+============================================================== */
+/* \*/ a { outline:none; overflow:hidden; } /**/
+/* \*/ a:focus { outline:none; overflow:hidden; } /**/
+
+a         { color: #c72534;	text-decoration: none; }
+a:link    { color: #c72534;	text-decoration: none; }
+a:visited { color: #c72534;	text-decoration: underline; }
+a:hover   { color: #e50c20; text-decoration: underline; }
+
+a:hover img.alpha { -moz-opacity:0.7; opacity:0.7; filter: alpha(opacity=70); }

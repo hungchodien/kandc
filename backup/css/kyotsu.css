@@ -1,0 +1,447 @@
+.big {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+.waku {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.wakunai {
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.parts {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.picture1 {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+.hosoku {
+	font-size: 10px;
+	clear: both;
+	padding-left: 10px;
+	margin-right: 30px;
+	color: #999999;
+	letter-spacing: 1px;
+}
+.parts1 {
+
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.hyo {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wakuiro {
+	margin-right: 30px;
+	margin-left: 30px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	border: 1px solid #999999;
+	margin-bottom: 20px;
+}
+.waku1 {
+
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.syosai1 {
+	font-size: 12px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	text-align: right;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	width: 200px;
+	margin-right: 20px;
+	margin-left: 320px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wakuiro1 {
+	margin-right: 70px;
+	margin-left: 70px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	background-color: #E6E6FA;
+	border: 1px dotted #999999;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.syosai2 {
+	font-size: 12px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	text-align: right;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	width: 220px;
+	margin-right: 20px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.parts3 {
+
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 11px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.parts4 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.hyo1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.syosai3 {
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #CCCCCC;
+	margin-right: 30px;
+	padding: 2px;
+}
+.syosai4 {
+
+	font-size: 12px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	text-align: right;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	width: 280px;
+	margin-right: 20px;
+	margin-left: 230px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.syosai_s {
+
+	font-size: 12px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	text-align: right;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	width: 150px;
+	margin-right: 20px;
+	margin-left: 360px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.hosoku2 {
+
+	font-size: 12px;
+	clear: both;
+	padding-left: 10px;
+	margin-right: 30px;
+	letter-spacing: 1px;
+}
+.syosai_n {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.yaji_down {
+	margin-top: 5px;
+	margin-left: 40px;
+}
+.program1_n {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	background-color: #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.contents_n {
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	height: auto;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1em;
+	letter-spacing: 1px;
+}
+.close {
+	text-align: center;
+}
+.point_n {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+.oomidashi_inter1 {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	height: auto;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-left: 30px;
+	width: 260px;
+	font-weight: bold;
+}
+.syosai3_n {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #E6E6FA;
+	margin-right: 20px;
+	padding: 4px;
+	font-weight: bold;
+}
+.oomidashi_inter2 {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	height: auto;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.back_parts_n {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.category3 {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	letter-spacing: 1px;
+	margin-left: 170px;
+	margin-top: 10px;
+	padding-left: 5px;
+	margin-right: 20px;
+	padding-bottom: 2px;
+	background-color: #E6E6FA;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding-top: 2px;
+	font-weight: bold;
+}
+.syokai_n {
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-right: 30px;
+	margin-left: 170px;
+	margin-bottom: 10px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	margin-top: 30px;
+}
+.syokai_n_b {
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	float: left;
+	width: 360px;
+	margin-top: 20px;
+}
+.category3_b {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	letter-spacing: 1px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+	margin-right: 10px;
+	padding-bottom: 2px;
+	background-color: #E6E6FA;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding-top: 2px;
+	font-weight: bold;
+}
+.photo_b_b {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	float: right;
+	margin-right: 20px;
+}
+.pub_pic {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.parts4st {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.syosai2005 {
+
+
+	font-size: 12px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	text-align: right;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	width: 150px;
+	margin-right: 20px;
+	margin-left: 360px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.waku_cxo {
+	border: 1px solid #D8BD88;
+}

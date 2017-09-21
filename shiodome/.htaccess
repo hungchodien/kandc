@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /shiodome/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^details/([^/]*)\.html$ index.php?page=details&sid=$1 [L]
+RewriteRule ^category/([^/]*)\.html$ index.php?page=category&sid=$1 [L]
+RewriteRule ^category/([^/]*)/page/([^/]*)\.html$ index.php?page=category&sid=$1&currentpage=$2 [L]

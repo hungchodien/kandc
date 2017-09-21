@@ -1,0 +1,22 @@
+【参加希望イベント】          {event_date}  {event_title}
+.
+【お名前】                     {txt1} {txt2}
+.
+【フリガナ】                    {txt3} {txt4}
+.
+【在籍社名】                 西暦 {year} 年 {month} 月 {day} 日
+.
+【在籍社名】		               {txt5}
+.
+【業種】			                    {txt6}
+.
+【職種】			                    {txt7}
+.
+【何をご覧になってアクセス頂きましたか？】                     {role} {other_opinion} 
+.
+【メールアドレス】 		{email}
+.
+【電話番号】		       {phone}
+
+
+

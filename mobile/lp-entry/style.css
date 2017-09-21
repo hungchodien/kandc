@@ -1,0 +1,72 @@
+/* CSS Document */
+.top_lb_content_entry{
+	width:100%;
+	margin:10px 0;
+}
+.top_lb_content_entry img{
+	width:100%;
+}
+.group_txt_lb {
+   
+    position: relative;
+  	width: 100%;
+}
+.group_txt_lb .item_lb_txt1{
+	background:url(img/future-bg.png) repeat 0 0;
+	width:94%;
+	height:100%;
+	padding:10px 3% 20px 3%;
+}
+.group_txt_lb .item_lb_txt1 .title_item {
+    color: #ff7300;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+	
+}
+.group_txt_lb .item_lb_txt1 .content_item {
+    color: #fff;
+    line-height: 1.5;
+}
+.txt_end_lp_footer{
+	width:96%;
+	text-align:center;
+	padding:20px 2%;
+}
+.txt_end_lp_footer img{
+	width:100%;
+	
+}
+.tbl_entry_lp_button{
+	width:96%;
+	text-align:center;
+	padding:0px 2% 10px 2%;
+}
+.tbl_entry_lp_button a{
+	display:block;
+}
+.tbl_entry_lp_button a img{
+	width:100%;
+}
+.header_lp_title_txt{
+	padding:20px 0;
+}
+.header_lp_title_img{
+	width:96%;
+	padding:20px 2%;
+}
+.header_lp_title_img img{
+	width:100%;
+}
+header {
+	border:none !important;
+}
+#share_email_footer_show{
+	display:none !important;
+}
+#to_pc_icon {
+    width: 30% !important;
+}
+a.consultant_img_index img{
+	width:100%;
+}

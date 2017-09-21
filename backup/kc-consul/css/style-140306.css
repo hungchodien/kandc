@@ -1,0 +1,1076 @@
+@charset "UTF-8";
+/* CSS Document */
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,700);
+@import url(style-soo.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	
+}
+:focus {
+	/* remember to define focus styles! */
+    outline: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	/* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+	display: block;
+}
+img {
+	border: 0;
+	max-width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a {
+	color: #444;
+	text-decoration: none;
+}
+a img:hover
+{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+/*page
+----------------------------------------------------*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight:normal;
+	color: #333;
+}
+.l{
+	float:left;
+	
+}
+.r{
+	float:right;
+}
+.b{
+	font-weight:bold;
+}
+.bdr{
+	border-right:1px #cccc solid;
+}
+
+.header_top{
+	background:#000;
+	padding:5px 0;
+}
+.footer_content,#container,.nav_menu,.header_top_content{
+	padding:0 25px;
+	width:950px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.header_top_content h1{
+	float:left;
+	
+	}
+.header_top_content h1 a{
+	font-size:10px;
+	color:#FFF;
+	
+	}
+.gplus_btn, .twitter_btn, .facebook_btn {
+	 margin: 0 0 0 10px;
+    width: 80px;
+	}
+.header_logo{
+	background:#FFF;
+	padding:20px 0;
+}
+.header_logo_content h2{
+	float:left;
+	}
+.header_menu{
+	background:#f2f2f2;
+	border-bottom:2px #b39f68 solid;
+}
+.nav_menu ul li{
+	 float:left;
+	 padding:0;
+	 margin:0;
+	}
+.nav_menu span {
+	position:absolute;
+	top:-9999em;
+	}
+.nav_menu .home{
+	background:url(../img/menu/home_btn.png) 0 0 no-repeat;
+	width:95px;
+	height:66px;
+	display:block;
+}
+.nav_menu .policy{
+	background:url(../img/menu/policy_btn.png) 0 0 no-repeat;
+	width:142px;
+	height:66px;
+	display:block;
+}
+.nav_menu .interview{
+	background:url(../img/menu/interview_btn.png) 0 0 no-repeat;
+	width:142px;
+	height:66px;
+	display:block;
+}
+.nav_menu .job-search{
+	background:url(../img/menu/job_search_btn.png) 0 0 no-repeat;
+	width:126px;
+	height:66px;
+	display:block;
+}
+.nav_menu .semina{
+	background:url(../img/menu/seminar_btn.png) 0 0 no-repeat;
+	width:143px;
+	height:66px;
+	display:block;
+}
+.nav_menu .career-consultant{
+	background:url(../img/menu/career_consultant_btn.png) 0 0 no-repeat;
+	width:191px;
+	height:66px;
+	display:block;
+}
+.nav_menu .contact{
+	background:url(../img/menu/contact_btn.png) 0 0 no-repeat;
+	width:111px;
+	height:66px;
+	display:block;
+}
+.nav_menu ul li a:hover{
+	background-position: 0 -66px;
+}
+.nav_menu .active{
+	background-position: 0 -66px;
+	}
+.nav_menu .default{
+	background-position: 0 -66px;
+	}
+.footer_top{
+	
+	margin:10px 0 0 0;
+	}
+table.footer_table{
+	border:1px #ccc solid;
+	width:950px;
+	}
+table.footer_table td{
+	border:1px #ccc solid;
+	
+}	
+table.footer_table td.td_logo{
+	vertical-align:middle;
+	text-align:-moz-center;
+	
+}
+.ie table.footer_table td.td_logo{
+	text-align:center;
+	vertical-align:middle;
+}
+table.footer_table td.td_logo a img{
+	max-width:173px;
+	text-align:center;
+}
+.footer_row_colum_1,.footer_row_colum_2{
+	padding:20px 20px;
+	
+}
+.copyright{
+	height:40px;
+	line-height:40px;
+	text-transform:uppercase;
+	border-bottom:1px #ccc solid;
+	margin-bottom:30px;
+	}
+.footer_top a span.text_link{
+	text-transform:uppercase;
+	color:#b1b1b1;
+	
+}	
+.footer_top ul li a{
+	font-size:10px;
+}
+.footer_row_1{
+	width:160px;
+}
+.footer_row_2{
+	width:215px;
+}
+.footer_row_3_1{
+	width:156px;
+}
+.footer_row_3_2{
+	width:120px;
+}
+.nivoslide_show{
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#000;
+	z-index:1;
+	overflow:hidden;
+}
+.nivo_content{
+	width:950px;
+	margin:0 auto;
+	height:400px;
+	
+	position:relative;
+}
+ 
+ 
+ 
+.nivoSlider {
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+.nivoSlider img {
+    left: 0;
+    max-width: none;
+    position: absolute;
+    top: 0;
+}
+.nivo-main-image {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+}
+.nivoSlider a.nivo-imageLink {
+    border: 0 none;
+    display: none;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+.nivo-slice {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+.nivo-box {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+}
+.nivo-box img {
+    display: block;
+}
+.nivo-caption {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    color: #FFFFFF;
+    display: none;
+    left: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 8;
+}
+.nivo-caption p {
+    margin: 0;
+    padding: 5px;
+}
+.nivo-caption a {
+    display: inline !important;
+}
+.nivo-html-caption {
+    display: none;
+}
+.nivo-directionNav a {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    z-index: 9;
+	font-size:0;
+	text-indent:-9999;
+	
+}
+.nivo-prevNav {
+    left: -15px;
+	background:url('../img/home/slide-prev-icon.png') no-repeat top center;
+	width:29px;
+	height:44px;
+	z-index:100;
+}
+.nivo-nextNav {
+    right: -15px;
+	background:url('../img/home/slide-next-icon.png') no-repeat top center;
+	width:29px;
+	height:44px;
+	z-index:100;
+}
+.nivo-controlNav {
+    display:none;
+}
+.nivo-controlNav a {
+    cursor: pointer;
+}
+.nivo-controlNav a.active {
+    font-weight: bold;
+}
+.pickup_jobinfo .img_pic{
+	margin:20px;
+	width:183px;
+}
+.pickup_jobinfo .job_info{
+	
+	border-left:2px #b39f68 solid;
+	
+	padding:0px 0 0px 20px;
+	margin:10px 0 0 0;
+	width:665px;
+}
+/*ul#job_view{
+	 display: -webkit-flex;
+            display: -moz-flex;
+            display: -o-flex;
+            display: -ms-flex;
+            display: flex;
+}*/
+.job_info ul#job_view li{
+		white-space: -moz-pre-wrap; /* Mozilla */
+		white-space: -hp-pre-wrap; /* HP printers */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		white-space: -pre-wrap; /* Opera 4-6 */
+		white-space: pre-wrap; /* CSS 2.1 */
+		white-space: inherit; /* CSS 3 (and 2.1 as well, actually) */
+		word-wrap: break-word; /* IE */
+		word-break: break-all;
+		text-overflow: ellipsis;
+		width:645px;
+		display:-moz-box;
+		
+		overflow:hidden;
+		
+		display: -webkit-box;
+		display: box;
+}	
+.slide_bar{
+	width:250px;
+	border:1px #CCC solid;
+}
+#news_newest,.ads{
+	border-bottom:1px #CCC solid;
+}
+#news_newest .job-new{
+	padding:0px 15px 20px 15px;
+}
+.group_link_ads{
+	padding:0px 15px 20px 15px;
+}
+.logo_semina{
+	text-align:center;
+	margin:0 0 20px 0;
+}
+.icon_title{
+	margin:20px 0;
+}
+.link_ads{
+	margin:0 0 10px 0;
+	
+}
+.link_ads img{
+	 max-width:220px;
+}
+.left_content{
+	width:685px;
+}
+.pickup_jobinfo{
+	background:#FFF;
+	margin:10px 0;
+	padding:20px;
+}
+ul.title-newest li{
+	margin:10px 0 0 0;
+}
+#news_newest img{
+	background:transparent;
+}
+ul.title-newest li span.date_time{
+	color:#b39f68;
+	margin:5px 0;
+}
+.left_content .inter_top{
+		width:100%;
+		margin:0 0 10px 0;
+		
+}
+.inter_top .h1_inter{
+	background:#FFF;
+	padding:20px;
+}
+.content_inter{
+	margin:10px 0 0 0;
+}
+.inexp{
+	width:335px;
+	height:415px;
+	background:#FFF;
+	position:relative;
+}
+.inexp .title_primary{
+	
+	color:#FFF;
+	height:25px;
+	line-height:25px;
+	padding:0 0 0 20px;
+}
+.inexp .title_news{
+	background:#FFF;
+	padding:10px 20px 10px 20px;
+	color:#B39F68;
+}
+.inexp .name_news{
+	background:#FFF;
+	padding:10px 20px 20px 20px;
+}
+.inexp .button_mainlink{
+		background:#FFF;
+		position:absolute;
+		right:0;
+		bottom:0;
+}
+.button_mainlink .tbl_mainlink{
+	
+	padding:10px 20px 20px 20px;
+	
+}
+.img_primary img{
+	width:335px;
+	border:0;
+	height:195px;
+}
+.border_black{
+	border-top: 8px solid #999999;
+}
+.border_green{
+	border-top: 8px solid #b39f68;
+}
+.bg_black{
+	background:#999999;
+}
+.bg_green{
+	background:#b39f68;
+}
+.job_info_list{
+	margin:5px 0 0 0;
+}
+
+.title_group_job{
+	background:#CCC;
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 20px;
+	
+}
+.icon_group_job{
+	padding:0 0 0 20px;
+	background:#FFF;
+}
+.job_info_list{
+	background:#FFF;
+}
+.title_category_job{
+	font-size:17px;
+	color:#b39f68;
+}
+.group_job_list{
+	margin:20px 0 20px 0px;
+}
+.title_category_job{
+	padding:20px 0px 0px 20px;
+	
+}
+.content_category{
+	padding-left:20px;
+}
+.look-link-parent{
+	background:url(../img/icon-li.png) no-repeat 0 5px;
+	padding:3px 0;
+}
+.look-link-parent a{
+	margin:0px 0 0px 20px;
+	font-weight:bold;
+}
+ul.sub-category li {
+	float:left;
+	margin:10px 0 0 20px;
+	width:290px;
+	
+}
+.cat_child_3{
+	margin-left:20px;
+}
+.c00{
+	color:#C00;
+}
+.search_job{
+	margin:20px;
+	}
+.search_job h1.search{
+	margin-bottom:10px;
+	color:#b39f68;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.button_submit{
+	
+	background: none repeat scroll 0 0 #b39f68;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+	line-height:30px;
+    text-align: center;
+    width:50px;
+}
+.text_search{
+	width:250px;
+	height:20px;
+	line-height:20px;
+	padding:5px;
+	border:none;
+	background-color:#E9E9E9;
+	
+}
+.breadcrumb-link{
+	font-size:10px;
+	color:#666;
+}
+.breadcrumb-link a{
+	font-size:10px;
+	color:#666;
+}
+.breadcrumb-link a:hover{
+	font-size:10px;
+	color:#666;
+}
+#breadcrumb{
+	height:25px;
+	line-height:25px;
+	margin:5px;
+}
+.breadcrumb-link ul li{
+	
+	float:left;
+}
+.bg_while{
+	background:#FFF;
+}
+.content_policy{
+	padding:25px;
+}
+.content_policy_view{
+	padding:20px 0 0 0;
+}
+.left_policy{
+	width:315px;
+}
+.left_policy img{
+	max-width:315px;
+}
+.right_policy{
+	width:565px;
+	padding:30px 0 0 20px;
+	
+	
+}
+.content_policy_footer{
+	margin:20px 0 0 0;
+	padding:20px 20px 20px 25px;
+}
+.content_policy_footer .left_footer{
+	width:250px;
+	text-align:center;
+	vertical-align:middle;
+	table-layout:fixed;
+	display:inline-block;
+	
+}
+.content_policy_footer .left_footer img{
+	margin-top:25px;
+}
+.content_policy_footer .right_footer{
+	background:#dbdbdb;
+	width:642px;
+	line-height:30px;
+	height:91px;
+}
+.while{
+	color:#FFF;
+}
+.b{
+	font-weight:bold;
+}
+.mrr20{
+	margin-right:20px;
+}
+.f16{
+	font-size:16px;
+}
+.content_career_consultant{
+	width:100%;
+}
+.career_consultant_header{
+	padding:30px;
+	background:#FFF;
+}
+.content_career_consultant_view{
+	margin:10px 0;
+}
+.left_career_consultant{
+	width:405px;
+	padding:30px;
+}
+.right_career_consultant{
+	width:405px;
+	padding:30px;
+}
+.description_career{
+	color:#666;
+}
+.pd30{
+	padding:30px;
+}
+.contact_form{
+	padding:50px;
+}
+.contact_form .text_input{
+	width:100%;
+	background:#f2f2f2;
+	border:1px #ccc solid;
+	height:20px;
+	line-height:20px;
+}
+.contact_form .textaria {
+	height:200px;
+	}
+.contact_table td.button_sub{
+	text-align:right !important;
+	height:60px;
+	line-height:60px;
+}
+.green, .green a {
+	color:#b39f68;
+}
+.error{
+	color:#C00;
+}
+.textError{
+	border:1px #C00 solid !important;
+}
+.contact_frm{
+	background: none repeat scroll 0 0 #b39f68;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    width:60px;
+}
+.contact_table td{
+	height:40px;
+	line-height:40px;
+	vertical-align:middle !important;
+}
+.contact_table td.message{
+	line-height:normal;
+	height:auto;
+	font-size:11px;
+	margin-top:10px;
+}
+.form-personal-profile,.label-asked{
+	padding:30px;
+}
+.title_seminar{
+	padding:30px;
+}
+.seminar_list{
+	margin:17.5px 0 5px 0;
+}
+.item_seminar{
+	padding:25px;
+	width:255px;
+	margin-right:17.5px;
+	height:205px;
+}
+.item_seminar h2{
+	margin:0 0 10px 0;
+	font-weight:bold;
+}
+.readmore_seminar{
+	margin:20px 0 0 0;
+}
+.none_margin{
+	margin:0 !important;
+}
+.img_icon_item {
+	text-align:center;
+	margin:0 0 20px 0;
+}
+.img_icon_item a img{
+	display:inline-block;
+}
+.date_time{
+	color:#b39f68;
+}
+.img_icon_item img{
+	height:70px;
+	max-width:255px;
+}
+.notice{
+	background:#b39f68;
+	margin:10px 0;
+	padding:20px;
+	color:#C00;
+	font-weight:bold;
+	
+}
+/*Content Seminar*****************************/
+.content_seminar{
+	padding:30px;
+}
+.content_seminar .content{
+	width:750px;
+	margin:50px auto 0 auto;
+}
+.content_seminar .content h2{
+	color: #B39F68;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 750px;
+}
+
+.content_seminar .content .text {
+    margin: 0 auto;
+    padding: 20px 0 0px;
+    width: 750px;
+}
+.content_seminar .content .text2 {
+    color: #B39F68;
+}
+table#t-seminar {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 700px;
+}
+table#t-seminar th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #f2f2f2;
+    border-color: #333333;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    color: #B39F68;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 120%;
+    padding: 10px;
+    width: 110px;
+	text-align:center;
+}
+table#t-seminar td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #333333;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    padding: 15px;
+}
+/*End content Seminar*******************************************/
+
+.group_interview{
+	margin:17.5px 0 0 0;
+}
+.item_interview{
+	width:465px;
+	
+	padding:0;
+	height:545px;
+}
+.img_icon_interview{
+	text-align:center;
+	
+}
+.img_icon_interview img{
+	height:270px;
+	width:465px;
+	
+}
+.mg_top10{
+	margin:10px 0 20px 0;
+}
+.pd25{
+	padding:0 25px;
+}
+.news_icon{
+	margin:10px 0;
+}
+.description_interview{
+	margin:15px 0 25px 0;
+}
+.readmore_interview{
+	bottom: 15px;
+    position: absolute;
+    width: 255px;
+}
+.title_main_interview{
+	padding:20px 25px 15px 25px;
+}
+.title_main_interview h1{
+	font-weight:bold;
+	font-size:15px;
+	
+}
+.title_main_interview h2{
+	margin:10px 0;
+	font-size:12px;
+	color:#999;
+}
+.images_interview_post{
+	margin:0;
+	padding:0;
+}
+.images_interview_post img{
+	height:400px;
+	width:950px;
+}
+.releated_inter{
+	margin:10px 0;
+}
+.releated_inter .item_list{
+	width:305px;
+	height:340px;
+	margin-right:17.5px;
+	position: relative;
+}
+.content_item_list{
+	padding:0px 25px 15px 25px;
+}
+.icon_item_list img{
+	width:305px;
+	height:175px;
+}
+.content_item_list .description_item{
+	margin:10px 0 15px;
+}
+.another_item{
+	background:#dbdbdb;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	padding:5px 10px 5px 20px;
+	margin:10px 0;
+}
+.img_content_main img{
+	width:950px;
+}
+.content_view{
+	width:750px;
+	 margin: 0px auto 0;
+	 padding:25px 0 20px 0;
+}
+.content_title_view{
+	padding:0 0 20px 0;
+	font-size:15px;
+}
+.content_view dt {
+    color: #333333;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    width: 30px;
+}
+.content_view dd {
+    color: #333333;
+    line-height: 2em;
+    margin: 0 0 1em 50px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.page_navi{
+	width:100%;
+	position:relative;
+}
+.pr{
+	position:absolute;
+	height:38px;
+	left:0;
+	font-size:0px;
+	bottom:0;
+}
+.nx{
+	position:absolute;
+	height:38px;
+	right:0;
+	font-size:0px;
+	bottom:0;
+}
+.page_navi ul{
+	text-align:center;
+}
+.page_navi ul li{
+	display:inline-block;
+	text-align:center;
+	
+}
+
+.page_navi ul li .active{
+	background-position:0 -38px;
+}
+.page_navi ul li span{
+	font-size:0;
+	text-indent:-9999;
+	
+}
+.nx .page_pre span , .pr .page_next span{
+	font-size:0;
+	text-indent:-9999;
+	
+}
+.pr .page_pre:hover,.nx .page_next:hover{
+	background-position:0 -38px;
+}
+.pr .page_pre{
+	background:url(../img/interview/button-prev.png) 0 0;
+	display:block;
+	height:38px;
+	width:143px;
+	
+	}
+.nx .page_next{
+	background:url(../img/interview/button-next.png) 0 0;
+	display:block;
+	height:38px;
+	width:143px;
+	
+	}
+.page_navi .page1{
+	background:url(../img/interview/button-p01.png) 0 0;
+	display:block;
+	height:38px;
+	width:42px;
+	}
+.page_navi .page2{
+	background:url(../img/interview/button-p02.png) 0 0;
+	display:block;
+	height:38px;
+	width:42px;
+	}
+.page_navi .page3{
+	background:url(../img/interview/button-p03.png) 0 0;
+	display:block;
+	height:38px;
+	width:42px;
+	}
+.page_navi .page4{
+	background:url(../img/interview/button-p04.png) 0 0;
+	display:block;
+	height:38px;
+	width:42px;
+	}			
+.footer_row_colum_2 h3,.footer_row_colum_1 h3{
+	text-transform:uppercase;
+	font-weight:bold;
+}	
+
+.readmore_interview .r, .readmore_interview .l {
+	width: 49%;
+}
+	
+
+
+/*End page----------------------------------------------------*/
+
+
+#page{
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	
+}
+
+
+/* Clearfix
+-----------------------------------------*/
+ .clear {
+	zoom: 1;
+}
+ .clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+

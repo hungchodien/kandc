@@ -1,0 +1,21 @@
+[home]
+
+-h1
+KREIS &Company Inc.コンサルタントの転職ならクライス＆カンパニーへ
+
+-h2
+コンサルタントのキャリアを共に考えるクライス＆カンパニー
+
+-footer
+Consultant Career
+ホームHOME	
+セミナー情報seminar サービス理念policy 	
+コンサルタント紹介career consultant インタビューinterview 	
+お問合せcontact 求人検索job search 
+
+求人検索
+ビジネスコンサルタント
+ITコンサルタント経営企画・事業企画
+
+-copyr
+Copyright©2014 KREIS&Company Inc. All Right Reserved. webdesign tokyodesignroom.com

@@ -1,0 +1,32 @@
+@media screen and (max-width: 980px) {
+    .header, #footer {
+        margin: 0 auto;
+        padding: 20px 15px;
+        max-width: 980px;
+    }
+    .groupd_t .en img{
+        width: 100%;
+    }
+    #navi{
+        max-width: 980px;
+    }
+    .header, #footer{
+        padding: 20px 0;
+    }
+    .fixed_jpg{
+        max-width: 980px;
+    }
+    #navi{
+        margin: 0 auto;
+        padding: 0px;
+        max-width: 980px;
+        width: auto;
+    }
+    .back-to-top{
+        margin: 0 auto;
+        max-width: 980px;
+        width: auto!important;
+    }
+
+
+}

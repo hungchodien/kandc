@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /academy/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^details/([^/]*)\.html$ index.php?page=details&sid=$1 [L]
+RewriteRule ^category/([^/]*)\.html$ index.php?page=category&sid=$1 [L]
+RewriteRule ^category/([^/]*)/page/([^/]*)\.html$ index.php?page=category&sid=$1&currentpage=$2 [L]
+
+
+
+RewriteRule ^entry/(complete|success)\.html index.php?page=entry&cmd=complete [L]
+RewriteRule ^entry/([^/]*)\.html$ index.php?page=entry&sid=$1 [L]
+RewriteRule ^entry/complete/([^/]*)\.html$ index.php?page=entry&cmd=complete&sid=$1 [L]

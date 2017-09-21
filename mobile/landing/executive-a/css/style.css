@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/* CSS Document */
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+
+img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*page
+----------------------------------------------------*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	font-size:13px;
+	line-height:22px;
+	color: #000;
+}
+
+img{
+	max-width: 100%;
+	height: auto !important;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.wrapper {
+	max-width: 768px;
+	margin: 0 auto;
+	padding: 0 3%;
+}
+.inside {
+	max-width: 768px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+header {
+	border-bottom: 2px solid #ccc;
+}
+.logo a {
+	padding: 10px 0;
+	max-width: 60%;
+	display: block;
+}
+.main_top {
+	position: relative;
+}
+.main_title {
+	position: absolute;
+	right: 2%;
+	top: 15%;
+	max-width: 59%;
+}
+.main_check p {
+	padding: 0 0 10px 0;
+}
+.entry_btn_top {
+	text-align: center;
+	padding: 10px 0;
+}
+.entry_btn {
+	text-align: center;
+	padding: 20px 0 5px 0;
+}
+.features_title {
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+.features_btns {
+	background: #000;
+	padding: 20px 0;
+	color: #fff;
+}
+.features_btn {
+	padding: 0 0 5px 0;
+}
+
+.consultants_title {
+	padding: 20px 2% 10px 2%;
+}
+.consultant_top p {
+	padding: 0 2%;
+}
+.consultant_block {
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2VlZDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(243,238,216,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(243,238,216,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(243,238,216,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(243,238,216,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(243,238,216,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(243,238,216,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f3eed8',GradientType=0 ); /* IE6-8 */
+border-bottom: 1px solid #9b773d;
+padding: 20px 0;
+}
+.consultant_tmb {
+	max-width: 30%;
+}
+.consultant_tmb_l {
+	padding: 0 1% 0 0;
+}
+.consultant_tmb_r {
+	padding: 0 0 0 1%;
+}
+.consultant_title_name {
+	max-width: 69%;
+}
+.consultant_title {
+	padding: 4% 0;
+}
+.consultant_info {
+	padding: 20px 0 0 0;
+}
+.note {
+	padding: 0 0 30px 0;
+    font-size: 11px;
+}
+.features_h2_title {
+	padding: 0 0 15px 0;
+}
+.features_graph_note {
+	text-align: right;
+	padding: 5px 0 20px 0;
+}
+.features_info_title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #9b773d;
+	padding: 0 0 15px 0;
+}
+.gcdf_title {
+	border-top: 1px solid #ccc;
+	line-height: 43px;
+}
+.gcdf_icon {
+	margin: -1px 0 0 0;
+}
+.gcdf_name {
+	font-size: 18px;
+	font-weight: bold;
+}
+.gcdf_block {
+	padding: 30px 0 0 0;
+}
+.gcdf_txt {
+	background: #f2f2f2;
+	padding: 15px 0;
+}
+.gcdf_txt .wrapper span {
+	padding: 0 3%;
+	display: block;
+}
+.feature_gcdf {
+	padding: 10px 0;
+}
+.gcdf_img li {
+	float: left;
+	width: 33.33%;
+}
+.gcdf_img li img {
+	display: block;
+}
+.voice {
+	background: #f2f2f2;
+	border-top: 3px solid #9b773d;
+}
+.voice_tmb {
+	max-width: 30%;
+	padding: 0 3% 0 0;
+}
+.voice_titles {
+	width: 67%;
+	text-align: center;
+	font-size: 11px;
+	padding: 3% 0 0 0;
+}
+.voice_title1 {
+	border: 1px solid #9b773d;
+	padding: 7px 0;
+	background: #fff;
+}
+.voice_title2 {
+	background: #9b773d;
+	padding: 7px 0;
+	color: #fff;
+}
+.voice_arrow {
+	padding: 7px 0;
+}
+.voice_box {
+	padding: 15px 5%;
+	border: 1px solid #9b773d;
+	
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2VlZDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,238,216,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(243,238,216,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,238,216,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,238,216,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,238,216,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,238,216,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3eed8',GradientType=0 ); /* IE6-8 */
+
+}
+.voice_top {
+	padding: 30px 0 20px 0;
+}
+.voice_box_title {
+	padding: 0 0 20px 0;
+}
+.features_btns .entry_btn {
+	padding: 5px 0;
+}
+.features_btns .note {
+	padding: 0;
+	text-align: left;
+}
+#copyR {
+	font-size: 11px;
+	line-height: 16px;
+	padding: 10px 0;
+}
+
+.text-point{
+	background:#FFFBDB;
+	font-weight:bold;
+	color:#9b773d;
+}
+
+#icon-send-complete{
+	margin-top:30px;
+}
+
+.thank_for_you{
+	margin-bottom:30px;
+}
+
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+}
+
+/* Clearfix
+-----------------------------------------*/
+
+.clear {
+	zoom: 1;
+}
+
+.clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}

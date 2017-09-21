@@ -1,0 +1,176 @@
+.before {
+	float: left;
+	margin-top: 10px;
+}
+.hosoku1 {
+	margin-left: 80px;
+	padding-top: 15px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 11px;
+}
+.wakunai_ti {
+	color: #006666;
+	clear: both;
+	padding-left: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.wakuhon {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.program {
+	font-weight: bold;
+	background-color: #CCFFFF;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.program1 {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 10px;
+}
+.point1 {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	border: 1px dotted #CCCCCC;
+	background-color: #FFFFFF;
+}
+.point2 {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #FFFFFF;
+}
+.point1_pic {
+	background-color: #CCCCCC;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	width: 200px;
+	float: left;
+	clear: both;
+}
+.point2_pic {
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	clear: both;
+	float: left;
+	width: 200px;
+}
+.pic_ti {
+	margin-top: 10px;
+	width: 220px;
+	float: left;
+	padding-top: 30px;
+}
+.mendo {
+	margin-left: 280px;
+	margin-top: 10px;
+}
+.wakunai2 {
+	background-color: #FFFFFF;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+.point3 {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	text-decoration: underline;
+}
+.after {
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.point4 {
+	margin-right: 10px;
+	margin-left: 30px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.jumparea1 {
+	font-size: 11px;
+	text-align: right;
+	margin-right: 30px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	padding-top: 5px;
+	margin-top: 0px;
+	line-height: 1.3em;
+	color: #006699;
+}
+.gra {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.titlelogo2 {
+	float: left;
+	width: 220px;
+	text-align: right;
+	margin-top: 10px;
+}
+.odai3 {
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-right: 30px;
+	margin-left: 20px;
+	line-height: 1.6em;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+.seminar_koe {
+	margin-top: 20px;
+}
+.process_img {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.jumparea2 {
+
+	font-size: 11px;
+	text-align: right;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	padding-top: 5px;
+	margin-top: 0px;
+	line-height: 1.3em;
+	color: #006699;
+}
+.mendo1 {
+
+	margin-left: 20px;
+	margin-top: 10px;
+}

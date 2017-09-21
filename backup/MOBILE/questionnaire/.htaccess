@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /mobile/questionnaire/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d

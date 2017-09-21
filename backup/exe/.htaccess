@@ -1,0 +1,51 @@
+RewriteEngine On
+RewriteBase /exe/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://www.kandc.com/exe/ [R=301,L] 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.kandc.com/exe/ [R=301,L] 
+
+RewriteCond %{THE_REQUEST} (?:/[^/]*)*/index\.php[?#\ ]
+RewriteRule .* %{REQUEST_URI}/../ [L,R=301]
+
+Redirect 301 /exe/process.html http://www.kandc.com/exe/process/
+Redirect 301 /exe/story.html http://www.kandc.com/exe/story/
+Redirect 301 /exe/consultant.html http://www.kandc.com/exe/consultant/
+
+Redirect 301 /exe/company.html http://www.kandc.com/exe/company/
+Redirect 301 /exe/entry.html http://www.kandc.com/exe/entry/
+Redirect 301 /exe/access.html http://www.kandc.com/exe/access/
+Redirect 301 /exe/privacy-policy.html http://www.kandc.com/exe/privacy-policy/
+Redirect 301 /exe/sitemap.html http://www.kandc.com/exe/sitemap/
+Redirect 301 /exe/service.html http://www.kandc.com/exe/service/
+
+
+Redirect 301 /exe/story/vol01.html http://www.kandc.com/exe/story/vol01/
+Redirect 301 /exe/story/vol02.html http://www.kandc.com/exe/story/vol02/
+Redirect 301 /exe/story/vol03.html http://www.kandc.com/exe/story/vol03/
+Redirect 301 /exe/story/vol04.html http://www.kandc.com/exe/story/vol04/
+
+
+Redirect /exe/consultant/maruyama/  http://www.kandc.com/exe/consultant/maruyama.html
+
+
+RewriteRule ^([^/]*)/$ index.php?page=$1 [L]
+
+
+RewriteRule ^entry/([^/]*)\.html$ index.php?page=entry&entry_sub=$1 [L]
+
+#consultant
+RewriteRule ^consultant/([^/]*)\.html$ index.php?page=consultant&detail_item=$1 [L]
+#RewriteRule ^consultant/([^/]*)/$ index.php?page=consultant&detail_item=$1 [L]
+#story
+
+RewriteRule ^story/vol([^/]*)/$ index.php?page=story&sub-store-forder=$1 [L]
+
+
+RewriteRule ^story/vol([^/]*)/([^/]*)\.html$ index.php?page=story&sub-store-forder=$1&sub-store-file=$2 [L]
+
+DirectoryIndex index.php index.html .ht
