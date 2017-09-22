@@ -3,15 +3,20 @@
 			/*email: Entry*/
 			
 			$admin_name="株式会社クライス＆カンパニー";
-			//$admin_email="nhuminh_ckx2005@yahoo.com";
-			//$admin_email="khanh@tokyodesignroom.com";
+			//$admin_email="minh.nguyen250385@gmail.com";
+			//$admin_email="khanhngn@gmail.com";
 			//$admin_email="soomin@tokyodesignroom.com";
+
 			$admin_email="survey@kandc.com";
-			
+			//$admin_email="kreis-19931104@kandc.com";
+
+			//$user_email="survey@kandc.com";
+			//$name_user_email = "soomin@tokyodesignroom.com";
+
 			//$admin_email="kreis-19931104@kandc.com";
             //$admin_email="kreis-19931104@kreisandcompany.sakura.ne.jp";
 			$user_subject="エントリーありがとうございます。（自動返信メール）";
-			$admin_subject="サービス満足度アンケート【スマホ】";
+			$admin_subject="決定者アンケート【スマホ】";
 			$domain="http://kandc.com/mobile/questionnaire-interview";
 $user_content =
 "{USER_NAME} 様\r\n

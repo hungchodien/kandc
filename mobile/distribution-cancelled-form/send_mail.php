@@ -32,14 +32,16 @@
 				$body_content = str_replace("{delivery_content2}", "{$delivery_content[1]}", $body_content);
 				$body_content = str_replace("{delivery_content3}", "{$delivery_content[2]}", $body_content);
 				
-				
-			To_Send_Mail($name_user_send, $user_email, $admin_email, $admin_subject, $body_content, $type="",$file_send_mail, $cc="", $bcc="", $charset="");				
+			$user_email_fix="em@kandc.com";
+			$name_user_fix="EM（".$name_user_send."氏エントリー）";
+	
+			To_Send_Mail($name_user_fix, $user_email_fix, $admin_email, $admin_subject, $body_content, $type="",$file_send_mail, $cc="", $bcc="", $charset="");				
 			//To_Send_Mail($admin_name, $admin_email, $user_email, $user_subject, $user_content, $type="",$file="", $cc="", $bcc="", $charset="");
 			
 
-				@include('../Lib/config.php');
-            @include('../Lib/connect.php');
-            @include('../Lib/function/function.query.php');
+				@include('../../Lib/config.php');
+            @include('../../Lib/connect.php');
+            @include('../../Lib/function/function.query.php');
             if(strlen($user_email)>0):
 
 				$chkbox_select1=$_POST['chkbox_select1'];

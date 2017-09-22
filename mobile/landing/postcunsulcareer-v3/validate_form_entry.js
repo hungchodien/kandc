@@ -7,6 +7,8 @@ $error_area=" 必須項目です。必ずご入力ください。 <br/> 職務�
 $error_select = '必須項目です。必ずご選択ください。';
 $error_select1 = '必須項目です。直近の職種を1つ選択してください。';
 
+$errorEmail_cf="確認用アドレスが間違っています。";
+
 var check_submit=false;
 var url = document.location.pathname;
 var arr = url.split('/');
@@ -308,8 +310,33 @@ function check_fileupload(fileName) {
 				$re12 = true;
 			}
 		}
-			
-			
+
+
+            if($('#text9').val() == '')
+            {
+                $('#errortext89').text($errorEmail);
+                $('#errortext89').addClass('error');
+                $(this).find('#text9').addClass('textError');
+                $re13 = false;
+
+            }
+            else
+            {
+                //var email1 = $('#text8').val();
+                if($('#text9').val() != $('#text8').val())
+                {
+                    $('#errortext89').text($errorEmail_cf);
+                    $('#errortext89').addClass('error');
+                    $(this).find('#text9').addClass('textError');
+                    $re13 = false;
+                }
+                else
+                {
+                    $(this).find('#text9').removeClass('textError');
+                    $("#errortext89").empty();
+                    $re13 = true;
+                }
+            }
 			
            /* if ($('#text18').val() == '') {
                 $('#errortext18').html($error_area);
@@ -323,7 +350,7 @@ function check_fileupload(fileName) {
             }
 			*/
 			
-			if ($re1 == false || $re5 == false || $re6 == false || $re7 == false || $re9 == false  || $re12 == false) 
+			if ($re1 == false || $re5 == false || $re6 == false || $re7 == false || $re9 == false  || $re12 == false ||  $re13 == false)
 			{
 				scroll_top_id();
                 return false;

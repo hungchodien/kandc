@@ -1,4 +1,5 @@
 <?php include('../inc/header.php');?>
+
 <script type="text/javascript" src="validate_form_entry.js"></script>
 <div id="container">
     <div id="wrap">
@@ -41,9 +42,29 @@
                             <td>
                                 <div class="email">
                                     <div class="main validate">
-                                        <input type="email" name="email" placeholder="半角文字でお間違いのないようご入力ください" value=""/>
+                                        <input type="email" id="text8" name="email" placeholder="半角文字でお間違いのないようご入力ください" value=""/>
                                     </div>
-                                    
+                                    <div class="input_other" style="margin-top: 5px">
+                                        <input type="email" id="text9" name="text9" inputmode="verbatim" style="ime-mode:inactive;"
+                                               placeholder="確認のためもう一度ご入力ください。" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off/>
+                                    </div>
+                                    <div class="clear">
+                                        <span id="errortext89"></span>
+                                    </div>
+                                    <script type="text/javascript">
+                                        jQuery(document).ready(function($) {
+                                            $('#text9').bind("cut copy paste", function(e) {
+                                                e.preventDefault();
+                                                alert("コピー・貼り付け不可。手入力をお願いします。");
+                                                $('#text9').focus();
+                                                $('#text9').bind("contextmenu", function(e) {
+                                                    $('#text9').focus();
+                                                    e.preventDefault();
+                                                });
+                                            });
+                                        });
+                                    </script>
+                                    <p style="margin-top:5px;">※携帯キャリアメール以外のアドレスをご入力ください。</p>
                                 </div>
                             </td>
                          </tr>
@@ -57,7 +78,7 @@
 				
             </div><!--.container-->
                 
-             </div><!-- #container-->   
+           
         </div> <!--entry-form-->
     	
     </div>
@@ -74,6 +95,7 @@
 	margin:0 auto;
 	text-align:center;
 }
+
 .error{color:red;border:none;padding-top:10px;}
 #entry-form .notes{
 	padding:20px 0;

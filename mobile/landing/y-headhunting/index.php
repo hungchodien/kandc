@@ -470,14 +470,28 @@ GCDF資格とは、米国CCE.Inc.が認定しているキャリアカウンセ�
                     	<div class="input_other">
                        		<input type="email" value="<?php if(!empty($_POST)): echo $_POST['text8']; endif; ?>" id="text8" name="text8"  onfocus="click_text(this.id)"  inputmode="verbatim" style="ime-mode:inactive;" placeholder="example@kandc.com" />
                         </div>
-                        <!--<div class="input_other">
-                       	 <input type="text"  value="" id="text9" name="text9">
-                        </div>-->
-                        
+                        <div class="input_other">
+                            <input type="email"  value="<?php if(!empty($_POST)): echo $_POST['text9']; endif; ?>" id="text9" name="text9" inputmode="verbatim" style="ime-mode:inactive;" onfocus="click_text(this.id)" placeholder="確認のためもう一度ご入力ください。" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off/>
+                        </div>
                     </div>
                     <div class="clear">
                     	<span id="errortext89"></span>
                     </div>
+
+                    <script type="text/javascript">
+                        jQuery(document).ready(function($) {
+                            $('#text9').bind("cut copy paste", function(e) {
+                                e.preventDefault();
+                                alert("コピー・貼り付け不可。手入力をお願いします。");
+                                $('#text9').focus();
+                                $('#text9').bind("contextmenu", function(e) {
+                                    $('#text9').focus();
+                                    e.preventDefault();
+                                });
+                            });
+                        });
+                    </script>
+                    <p style="margin-top:5px;">※携帯キャリアメール以外のアドレスをご入力ください。</p>
                 </div><!--End Group txt-->
              
                 

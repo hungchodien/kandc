@@ -22,7 +22,7 @@
 	}
 	@include('../inc/header.php'); 
 ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo url_root; ?>questionnaire/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
     <script src="<?php echo url_root; ?>js/validate_form_entry.js" type="text/javascript"></script>
 		<!--Content-->
 		 <script type="text/javascript">
@@ -43,11 +43,11 @@
        		
                <div class="bg_white content_inside block_content" style="margin-top:10px;">
             		<div id="icon-send-complete"><img title="送信完了" alt="送信完了" src="<?php echo url_root; ?>img/icon-send-complete.png" /></div>
-                    <h1 class="title">アンケートにご協力いただきありがとうございます。<br />より充実した転職をサポートさせていただきますので、引き続き、よろしくお願いいたします<br><br></h1>
+                    <h1 class="title">アンケートへのご協力ありがとうございます。<br /><br />いただきました貴重なご意見は、今後のサービス改善のために活用させていただきます。<br /><br />それでは、今後ますますのご活躍をお祈り申し上げます。<br><br></h1>
             	 <div class="thank_for_you clear">
                         <div class="contact-personal-title">お問合せ</div>
         <div>TEL  03-5733-1602</div>
-        <div>Email  <A href="mailto:kreis-info@kandc.com">kreis-info@kandc.com</A></div><br><br></p>
+        <div>Email  <A href="mailto:kc-kikaku@kandc.com">kc-kikaku@kandc.com</A></div><br><br></p>
                   </div>
               </div>
               <div class="block_content clear">

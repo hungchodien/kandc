@@ -7,13 +7,28 @@
 		@include('../set_user_ID_mobile.php');
 	    @include('../../set_user_ID_mobile.php');
  		@include('../../../set_user_ID_mobile.php');*/
-
+		
+		if(isset($_POST['key']) && strlen($_POST['key'])>1):
+			$key=$_POST['key'];
+		else:
+			$key="";
+		endif;
 		
 		@include('function_sendmail.php');
 		@include('config_entry.php');
 		$name_user_send="Question Entry Mobile";		
-		$user_email	=$_POST['s0'];
-		if(filter_var($user_email, FILTER_VALIDATE_EMAIL)):
+		//$user_email	=$_POST['s0'];
+		$name1 = $_POST['s-1'];
+		$name2 = $_POST['s0'];
+
+		$name_user_send=$name1;
+
+		//$user_email = "survey@kandc.com";
+		//$user_email = "khanhngn@gmail.com";
+		$user_email = "soomin@tokyodesignroom.com";
+
+		if( isset($name1) && isset($name2) && strlen(trim($name1))>0 && strlen(trim($name2))>0 ):
+
 			
 			$mail_template="mail_form.txt";
             
@@ -27,16 +42,21 @@
                 
             }
 			$admin_subject = $admin_subject . "" ;
-        for($k=-1; $k<9;$k++):
+        for($k=-1; $k<10;$k++):
                 $text_regest = $_POST["s".$k];
                 $body_content = str_replace("{s$k}", "{$text_regest}", $body_content);
         endfor;
 		
-		for($m=0; $m<8;$m++):
+		for($m=0; $m<9;$m++):
                 $text_regest_area = $_POST["s".$m."_area"];
                 $body_content = str_replace("{s".$m."_area}", "{$text_regest_area}", $body_content);
         endfor;
-		
+			
+		$body_content = str_replace("{key}", "{$key}", $body_content);
+
+	//$name_user_send="EM";
+	//$user_email_fix="em@kandc.com";
+
 	To_Send_Mail($name_user_send, $user_email, $admin_email, $admin_subject, $body_content, $type="",$file_send_mail, $cc="", $bcc="", $charset="");				
 		//To_Send_Mail($admin_name, $admin_email, $user_email, $user_subject, $user_content, $type="",$file="", $cc="", $bcc="", $charset="");
 		$s_1=$_POST['s-1'];
@@ -56,20 +76,24 @@
 		
 		$s4_area=$_POST['s4_area'];
 		$s4_end=$s4_area;
-		
-		$s5_area=$_POST['s5_area'];
-		$s5=$_POST['s5'];
-		$s6_area=$_POST['s6_area'];
-		$s5_end=$s5_area."<br/>".$s5."<br/>".$s6_area;
-		
-		$s7_area=$_POST['s7_area'];
-		$s6_end=$s7_area;
-		
-		$s7=$_POST['s7'];
-		$s7_end=$s7;
-		
-		$s8=$_POST['s8'];
-		$s8_end=$s8;
+
+        $s5_area1=$_POST['s5_area'];
+        $s5_area2=$_POST['s6_area'];
+        $s5=$_POST['s5'];
+        $s5_end=$s5_area1."<br/>".$s5."<br/>".$s5_area2;
+
+        $s6_area=$_POST['s7_area'];
+        $s6=$_POST['s9'];
+        $s6_end=$s6_area."<br/>".$s6."<br/>";
+
+        $s7=$_POST['s7'];
+        $s7_end=$s7;
+
+        $s8=$_POST['s8'];
+        $s8_end=$s8;
+
+        $s9=$_POST['s8_area'];
+        $s9_end=$s9;
 		
 		//mb_convert_encoding($value, 'UTF-8', 'SJIS')
 		//@include('Lib/_init.php');
@@ -92,6 +116,8 @@
 							"question_consultantS6" => $s6_end,
 							"question_consultantS7" => $s7_end,
 							"question_consultantS8" => $s8_end,
+                            "question_consultantS9" => $s9_end,
+                            "question_consultantS10" => '',
 							"question_consultant_slug" =>'questionnaire-interview',
 							"question_version"      => 'Mobile',  
 							"question_consultantDate"=> "now()|||int",

@@ -9,11 +9,12 @@
 
 			//$admin_email="kc-mailmagazine@kandc.com";
 			$admin_email="kreis-19931104@kandc.com";
+
 			//$admin_email="kreis-19931104@kandc.com";
            //$admin_email="kreis-19931104@kreisandcompany.sakura.ne.jp";
 			
 			//$user_subject="エントリーありがとうございます。（自動返信メール）";
-			$admin_subject="メルマガ配信停止";
+			$admin_subject="Mメルマガ配信停止";
 			$domain="http://kandc.com/distribution-cancelled-form/";
 /*
 $user_content =

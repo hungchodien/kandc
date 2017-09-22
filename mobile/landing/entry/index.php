@@ -1,34 +1,34 @@
-<?php 
+<?php
 	ob_start();
-	
+
 ?>
 <?php
-	@include('../inc/header.php'); 
+	@include('../inc/header.php');
 ?>
-	
+
     <link rel="stylesheet" type="text/css" href="<?php echo url_root; ?>entry/style.css" media="all" />
-    <script src="<?php echo url_root_mobile; ?>js/validate_form_entry.js" type="text/javascript"></script>
+    <script src="validate_form_entry.js" type="text/javascript"></script>
 		<!--Content-->
-   
+
     <div class="title_page clear">
     	<div class="image_title">
         <img src="../img/bg-entry.png"  alt="エントリー背景"/>
         </div>
-     </div>  
-       
-        
-        <!--End Content -->    
+     </div>
+
+
+        <!--End Content -->
        <div id="content" class=" inside clear content" >
        <!--****************************************************-->
-      <form id="submit_form" method="post" action="confirm.php" autocomplete="off">	
-        <?php 
+      <form id="submit_form" method="post" action="confirm.php" autocomplete="off">
+        <?php
 			$entry_id=$_GET['entry_id'];
 			echo "<input type='hidden' name='entry_id' value='{$entry_id}'/>";
 		?>
         	<div class="  clear h1_title ">個人プロフィール</div>
             <div class="bg_white content_inside block_content">
-            
-            	
+
+
             	<div class="group_txt_form clear">
                 	<div class="clear title_txt">お名前 <span class="notice">(必須）</span><span class="hi_notice">※全角入力
 </span></div>
@@ -43,9 +43,9 @@
                     <div class="clear">
                    			 <span id="errortext1"></span>&nbsp;&nbsp;<span id="errortext2"></span>
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">フリガナ <span class="notice">(必須）</span><span class="hi_notice"> ※全角カナ入力
 </span></div>
@@ -61,9 +61,9 @@
                    			 <span id="errortext3"></span>&nbsp;&nbsp;<span id="errortext4"></span>
                     </div>
                 </div><!--End Group txt-->
-                
-                
-                
+
+
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">生年月日<span class="notice">(必須）</span></div>
                     <div class="clear input_form">
@@ -77,7 +77,7 @@
                                     ?>
                                     <option value="<?php echo $end ?>"><?php echo $end ?></option>
                                 <?php } ?>
-                                                                    
+
                                                             </select>
                         </div>
                         <div class="input_50 r">
@@ -89,7 +89,7 @@
                                 ?>
                                 <option value="<?php echo $moth ?>"><?php echo $moth ?></option>
                             <?php } ?>
-                                                           
+
                                                         </select>
                         </div>
                         </div>
@@ -102,7 +102,7 @@
                                 ?>
                                 <option value="<?php echo $day ?>"><?php echo $day ?></option>
                             <?php } ?>
-                                                            
+
                                                         </select>
                         </div>
                     </div>
@@ -112,9 +112,9 @@
                         <span id="errorselect3"></span>
                         </div>
                 </div><!--End Group txt-->
-                
-                
-                
+
+
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">都道府県 <span class="notice">(必須）</span></div>
                     <div class="clear input_form">
@@ -171,13 +171,13 @@
                                <option value="海外">海外</option>
                             </select>
                         </div>
-                       
+
                     </div>
                     <div class="clear"><span id="errorselect4"></span></div>
                 </div><!--End Group txt-->
-                
-                
-                
+
+
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">電話番号<span class="notice">(必須）</span></div>
                     <div class="clear input_form phone">
@@ -195,9 +195,9 @@
                     </div>
                     <div class="clear"><span id="errortext5"></span><span id="errortext6"></span><span id="errortext7"></span></div>
                 </div><!--End Group txt-->
-                
-                
-                
+
+
+
                 <div class="group_txt_form last_child clear">
                 	<div class="clear title_txt">メールアドレス<span class="notice">(必須）</span></div>
                     <div class="clear input_form">
@@ -205,12 +205,31 @@
                        		<input type="text" onfocus="click_text(this.id)" onblur="IsEmail(this.value, this.id)" value="" id="text8" name="text8" >
                         </div>
                         <div class="input_other">
-                       	 <input type="text" onfocus="click_text(this.id)" onblur="confirm_Email(document.forms['submit_form']['text8'].value, document.forms['submit_form']['text9'].value, this.id)" value="" id="text9" name="text9">
+                            <input type="text" onfocus="click_text(this.id)" onblur="confirm_Email(document.forms['submit_form']['text8'].value, document.forms['submit_form']['text9'].value, this.id)" value="" id="text9" name="text9">
                         </div>
-                        
                     </div>
-                    <div class="clear"><span id="errortext8"></span>&nbsp;<span id="errortext9"></span></div>
+                    <div class="clear error_wrap tag_text9_entry">
+                        <span id="errortext89"></span>&nbsp;
+                    </div>
                 </div><!--End Group txt-->
+                <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        $('#text9').bind("cut copy paste", function(e) {
+                            e.preventDefault();
+                            alert("コピー・貼り付け不可。手入力をお願いします。");
+                            $('#text9').focus();
+                            $('#text9').bind("contextmenu", function(e) {
+                                $('#text9').focus();
+                                e.preventDefault();
+                            });
+                        });
+                        $("#text9").focusout(function() {
+                            if($('#text9').val() == $('#text8').val())
+                                $(".tag_text9_entry #errortext89").empty();
+                        });
+                    });
+                </script>
+                <p class="clear" style="margin-top:5px;">※携帯キャリアメール以外のアドレスをご入力ください。</p>
                 <div class="notice-entry-form">
                         <p>※メールでのご連絡について</p>
 						<p>当社からお送りしているメールが迷惑メール削除機能により受信できないケースが発生しております。特にyahoo等の無料メー
@@ -219,15 +238,15 @@
 
                         <p>ご利用のお客様は、各メールサービスのご案内にしたがって迷惑メール削除機能の解除等、設定の変更をお願いいたします。</p>
                     </div>
-                
+
              </div>
              <!--****************************************************-->
              <div class="  clear h1_title">最終学歴・語学・資格</div>
              <div class="bg_white content_inside block_content">
-             	
-             	
+
+
              	<div class="group_txt_form clear">
-                	
+
                     <div class="clear input_form">
                     	<div class="input_20 l">
                        		学校名
@@ -245,7 +264,7 @@
                         </div>
                     </div>
                 </div><!--End Group txt-->
-               
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">英語力</div>
                     <div class="clear input_form">
@@ -262,36 +281,36 @@
                         <div class="input_20 r">
                        	 <input type="text" onfocus="click_text(this.id)" value="" id="text11" name="text11">
                         </div>
-                        
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-             
+
              	 <div class="group_txt_form last_child clear">
                 	<div class="clear title_txt">その他語学・資格</div>
                     <div class="clear input_form">
                     	<div class="input_100">
                      <textarea onfocus="click_text(this.id)" value="" id="text12" name="text12" type="text"  cols="50" rows="1"></textarea>
                         </div>
-                        
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-             
-             
-             
-             
-             
+
+
+
+
+
              </div>
              <!--***************************************************-->
-             
+
               <!--****************************************************-->
               <div class="  h1_title clear">職務経歴について</div>
              <div class="bg_white content_inside block_content">
-             	
-                
+
+
                 <div class="group_txt_form clear">
-                	
+
                     <div class="clear input_form">
                     	<div class="input_30 l">
                        		経験社数<span class="notice">(必須）</span>
@@ -299,11 +318,11 @@
                         <div class="input_70 r">
                        <input type="text" onfocus="click_text(this.id)" onblur="validatetext(this.value, this.id)" value="" id="text13" name="text13"/>
                         </div>
-                        
+
                     </div>
                      <div class="clear"><span  id="errortext13"></span></div>
                 </div><!--End Group txt-->
-                
+
                  <div class="group_txt_form clear">
                 	<div class="clear title_txt">会社名・従業員数</div>
                     <div class="clear input_form">
@@ -313,11 +332,11 @@
                         <div class="input_20 r">
                        	 <input type="text" value="" onfocus="click_text(this.id)" id="text15" name="text15"/>
                         </div>
-                        
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">業種<span class="notice">(必須）</span></div>
                     <div class="clear input_form">
@@ -374,11 +393,11 @@
                     <option value="その他">その他</option>
                 </select>
                         </div>
-                        
+
                     </div>
                      <div class="clear"><span id="errorselect6"></span></div>
                 </div><!--End Group txt-->
-                
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">勤務期間</div>
                     <div class="clear input_form">
@@ -438,10 +457,10 @@
                         <div class="input_radio"><input type="radio" name="radio1" value="現職中" id="radio1" checked/> 現職中</div>
                         <div class="input_radio"><input type="radio" name="radio1" value="退職予定" id="radio2"/> 退職予定</div>
                         <div class="input_radio"><input type="radio" name="radio1" value="離職中" id="radio3"/> 離職中</div>
-                    </div> 
-                    
+                    </div>
+
                 </div><!--End Group txt-->
-                
+
                  <div class="group_txt_form clear">
                 	<div class="clear title_txt">職種<span class="notice">(必須）</span></div>
                     <div class="clear input_form">
@@ -484,11 +503,11 @@
                                 <option value="コールセンター">コールセンター</option>
                 			</select>
                         </div>
-                        
+
                     </div>
                     <div class="clear"><span id="errorselect11"></span></div>
                 </div><!--End Group txt-->
-                
+
                  <div class="group_txt_form clear">
                 	<div class="clear title_txt">最終部課／職位・年収</div>
                     <div class="clear input_form">
@@ -498,70 +517,70 @@
                         <div class="input_20 r">
                        	 <input type="text" value="" onfocus="click_text(this.id)" id="text17" name="text17">
                         </div>
-                        
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">職務内容 <span class="notice">(必須）</span></div>
                     <div class="clear input_form">
                     	<div class="input_100">
                      <textarea onclick="add_desc_hidden(this.id);" onblur="validatetext(this.value, this.id) ;" onfocus="click_text(this.id)" value="" id="text18" name="text18" type="text"></textarea>
                         </div>
-                       
-                        
+
+
                     </div>
                     <div class="clear"><span id="errortext18"></span></div>
                 </div><!--End Group txt-->
-                
+
                  <div class="group_txt_form last_child clear">
                 	<div class="clear title_txt">その他職歴</div>
                     <div class="clear input_form">
                     	<div class="input_100">
                      <textarea onclick="add_desc_hidden(this.id);" value="" onfocus="click_text(this.id)" id="text19" name="text19" type="text"></textarea>
                         </div>
-                       
-                        
+
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
               </div>
              <!--***************************************************-->
-             
+
                <!--****************************************************-->
                <div class="clear h1_title">ご希望について</div>
              <div class="bg_white content_inside block_content">
-             	
-                
+
+
                 <div class="group_txt_form last_child clear">
                 	<div class="clear title_txt">希望勤務地</div>
                     <div class="clear input_form">
                     	<div class="input_100">
                     	 <input type="text" onfocus="click_text(this.id)" value="" id="text20" name="text20">
                         </div>
-                       
-                        
+
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
 
-				
+
 
              </div>
              <!--***************************************************-->
-             <?php 
-								@include('../inc/link_privacy_policy.php'); 
-								@include('../../inc/link_privacy_policy.php'); 
-		
+             <?php
+								@include('../inc/link_privacy_policy.php');
+								@include('../../inc/link_privacy_policy.php');
+
 							?>
 
               <!--****************************************************-->
               	<?php /*?><div class=" clear h1_title">何をご覧になってアクセス頂きましたか？</div>
              <div class="bg_white content_inside block_content">
-             
-                
+
+
                  <div class="group_txt_form clear">
                 	<div class="clear input_form">
                     	<div class="input_20 l">
@@ -587,50 +606,50 @@
                                 <option value="その他">その他</option>
                             </select>
                         </div>
-                        
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">その他</div>
                     <div class="clear input_form">
                     	<div class="input_100">
                     	 <textarea value="" onfocus="click_text(this.id)" id="text21" name="text21" type="text"></textarea>
                         </div>
-                       
-                        
+
+
                     </div>
-                    
+
                 </div><!--End Group txt-->
-                
+
                </div><?php */?>
              <!--***************************************************-->
-             
+
              <!--****************************************************-->
              <div class="block_content mg_bt10 clear">
              	<div class="content_center_button center_submit_1 submit_form_button">
-                
+
              <!--	<div class="form_back_button button-back l">
                 	<a class="back_icon" title="Back" href="javascript:history.back(1)">
                     		<span class='arrow_back'>戻る</span>
                     </a>
                 </div>-->
-                
-                
+
+
                		<a href="javascript:void(0);" class="submit-go-confirm button-confirm" id="submit">同意して内容確認へ</a>
-               
-                
+
+
                 </div>
              </div>
              <!--***************************************************-->
-             
+
              </form>
-           
+
        </div><!--End content-->
-    
-    
+
+
     <?php include('../inc/footer.php'); ?>
-<?php 
+<?php
 	ob_flush();
 ?>

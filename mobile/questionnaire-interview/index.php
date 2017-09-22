@@ -16,10 +16,45 @@
 		 }
 		 return $pageURL;
 		}
-	if ($protocol == 'http:' || $protocol =='HTTP:'){
-		$entry_protocol = str_replace('http', 'https', curPageURL1() );
+	$url_curent_check = curPageURL1();
+
+if (strpos($url_curent_check, 'kreisandcompany.sakura.ne.jp') !== false) {
+
+	if ($protocol == 'https:' || $protocol == 'HTTPS:') {
+		$url_kandc_primary = str_replace("kreisandcompany.sakura.ne.jp", "kandc.com", $url_curent_check);
+		header("HTTP/1.1 301 Moved Permanently");
+		header('Location:'.$url_kandc_primary);
+	} else {
+		$url_kandc_primary = str_replace("kreisandcompany.sakura.ne.jp", "kandc.com", $url_curent_check);
+		$entry_protocol    = str_replace('http', 'https', $url_kandc_primary);
+		header("HTTP/1.1 301 Moved Permanently");
 		header('Location:'.$entry_protocol);
 	}
+
+} else {
+
+	if ($protocol == 'http:' || $protocol == 'HTTP:') {
+		if (substr($_SERVER['HTTP_HOST'], 0, 4) !== 'www.'):
+			$entry_protocol = str_replace('http://', 'https://www.', $url_curent_check);
+			header("HTTP/1.1 301 Moved Permanently");
+			header('Location:'.$entry_protocol);
+		else:
+			$entry_protocol = str_replace('http', 'https', $url_curent_check);
+			header("HTTP/1.1 301 Moved Permanently");
+			header('Location:'.$entry_protocol);
+		endif;
+
+	}else{
+
+		if (substr($_SERVER['HTTP_HOST'], 0, 4) !== 'www.'):
+			$entry_protocol = str_replace('https://', 'https://www.', $url_curent_check);
+			header("HTTP/1.1 301 Moved Permanently");
+			header('Location:'.$entry_protocol);
+		endif;
+
+	}
+
+}
 	@include('../inc/header.php'); 
 ?>
 	 <!-- javascript -->
@@ -143,7 +178,7 @@
 		 });
     </script>
     <script src="validate_form_entry.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo url_root; ?>questionnaire/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		<!--Content-->
 
 		 <style type="text/css">
@@ -192,11 +227,12 @@
        <!--****************************************************-->
        <div class="title_notice clear">
        		<p class="title_top_form yellow clear">サービス満足度アンケート</p>
-            <p class="sub_title_top_form while_txt clear">コンサルタントとのご面談を終えてのご感想、ご意見をお聞かせ下さい。下記項目を選択頂き、「内容確認に進む」ボタンを押してください。</p>
+            <p class="sub_title_top_form while_txt clear">以下は当社が大切にしているポイントです。<br>
+皆さまのご評価、ならびに今後の参考のためにお気づきの点がございましたら是非お聞かせ下さい。</p>
        </div>
-       	<form id="submit_form" method="post" action="confirm.php">	
+       	<form id="submit_form" method="post" action="confirm.php" class="questionnaire-interview">	
        
-        	
+        	<input type="hidden" name="key" value="<?php echo isset($_GET["key"])?$_GET["key"]:''; ?>" id="key_id"/>
             <div class="bg_white content_inside block_content mobile_entry_question" >
             
             	<div class="group_txt_form clear" style="border:none;">
@@ -210,22 +246,35 @@
                     <div class="clear"><span id="errors-1"></span></div>
                 </div><!--End Group txt-->
                 
+
                 <div class="group_txt_form clear" style="border:none;">
-                	<div class="clear title_txt">メールアドレス<span class="notice">(必須）</span></div>
+                	<div class="clear title_txt">担当コンサルタント名<span class="notice">(必須）</span></div>
                     <div class="clear input_form">
                     	<div class="input_other">
-                       		 <input class="text-personal-400" type="text" name="s0" id="s0" onfocus="click_text(this.id)" value="" onblur="IsEmail(this.value,this.id)" style="ime-mode:disabled;" />
+                       		 <?php /* ?><input class="consultant-name" type="text" name="s0" id="s0" onfocus="click_text(this.id)" value="" onblur="validatetext(this.value,this.id)" style="ime-mode:disabled;" /><?php */ ?>
+                            <select id="s0" class="selection selection-style" name="s0" onblur="validateSelect(this.value, this.id)" onfocus="click_text_error(this.id)">
+                                <option value=""> 担当コンサルタントを選択</option>
+                                <option value="粟田 健太郎">粟田 健太郎</option>
+                                <option value="入江 祥之">入江 祥之</option>
+                                <option value="岡田 麗">岡田 麗</option>
+                                <option value="小田 麻耶">小田 麻耶</option>
+                                <option value="神田 昭子">神田 昭子</option>
+                                <option value="工藤 直亮">工藤 直亮</option>
+                                <option value="佐野 慶樹">佐野 慶樹</option>
+                                <option value="武田 直人">武田 直人</option>
+                                <option value="棚澤 啓介">棚澤 啓介</option>
+                                <option value="豊田 綾">豊田 綾</option>
+                                <option value="永田 憲章">永田 憲章</option>
+                                <option value="奈良 元生">奈良 元生</option>
+                                <option value="半藤 剛">半藤 剛</option>
+                                <option value="細野 聡">細野 聡</option>
+                                <option value="松尾 匡起">松尾 匡起</option>
+                                <option value="三好 直実">三好 直実</option>
+                            </select>
                         </div>
-                         <?php /*?><div class="input_other">
-                       	  <input class="text-personal-400" type="text" name="s0_confirm" id="s0_confirm" value="" onfocus="click_text(this.id)"
-                                    onblur="confirm_Email(document.forms['submit_form']['s0'].value, this.value, this.id)"/>
-                        </div><?php */?>
-                        
                     </div>
                     <div class="clear"><span id="errors0"></span>&nbsp;<span id="errors0_confirm"></span></div>
                 </div><!--End Group txt-->
-                
-                
                 
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
@@ -347,7 +396,7 @@
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q4.</p>
-	                    <p>上記以外に、全体的に当社の関わり方でよかった点がございましたら、お聞かせ下さい。</p>
+	                    <p>当社にはどのようなことを期待されてご登録いただきましたでしょうか。</p>
                     </div>
                     <div class="clear input_form">
                     	<div class="input_100">
@@ -364,13 +413,10 @@
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q5.</p>
-	                    <p>当社にはどのようなことを期待されてご登録いただきましたでしょうか。</p>
+	                    <p>当社サービスはご期待に応えられましたでしょうか。</p>
                     </div>
                     <div class="clear input_form">
                     	<div class="input_100">
-                   			<p><textarea name="s5_area" rows="5" cols="66" id="s5_area"></textarea></p>
-	                        <p>-上記の期待には当社はどの程度応えられましたでしょうか。</p>
-	                        <p></p>
 	                    	<p>
 	                         <input type="radio" name="s5" value="期待以上"  id="l2_0">
 	 						 <label for="l2_0">期待以上</label>
@@ -395,14 +441,28 @@
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q6.</p>
-	                    <p>活動中、大変だったこと、不安になられたことなどございましたでしょうか？</p>
+	                    <p>活動中、大変だったこと、不安になられたことなどはございましたでしょうか。</p>
                     </div>
                     <div class="clear input_form">
                     	<div class="input_100">
-							<p>
+							<?php /* ?><p>
 	                         <textarea name="s7_area" rows="5" cols="66" id="s7_area"></textarea>
 							</p>
 	                        <p id="errorrs6"></p>
+                            <?php */ ?>
+                            <p>
+                                <input type="radio" name="s9" value="ある" id="20_0">
+                                <label for="20_0">ある</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="s9" value="なし" id="20_1">
+                                <label for="20_1">なし</label>
+                            </p>
+                            <p>-Q6で「ある」と回答された方にお聞きします。<br/>&nbsp;特にどのような点でそのように思われましたか？</p>
+                            <p>
+                                <textarea name="s7_area" rows="5" cols="66" id="s7_area"></textarea>
+                            </p>
+                            <p id="errorrs6"></p>
                         </div>
                         
                     </div>
@@ -438,7 +498,7 @@
                  <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q8.</p>
-                    	<p>当社をご友人、知人の方にご紹介いただけますでしょうか。</p>
+                    	<p>今後ご転職をお考えのご友人、知人の方がいらっしゃった場合、当社にご紹介いただけますでしょうか。</p>
                     </div>
                     <div class="clear input_form">
                     	<div class="input_100">
@@ -458,11 +518,28 @@
                         </div>
                         
                     </div>
-                    
+                 </div><!--group_txt_form-->
+
+
+                <div class="group_txt_form clear">
+                    <div class="clear title_txt">
+                        <p>Q9.</p>
+                        <p>その他、当社の関わり方でよかった点がございましたら、お聞かせ下さい。</p>
+                    </div>
+                    <div class="clear input_form">
+                        <div class="input_100">
+                            <p>
+                                <textarea name="s8_area" rows="5" cols="66" id="s8_area"></textarea>
+                            </p>
+                        </div>
+
+                    </div>
                 </div><!--group_txt_form-->
+
+
                 
                  <div class="group_txt_form clear">
-                	<p style="padding:10px 0;">アンケートご協力誠にありがとうございました。皆さまからのご意見を参考にさせていただきサービス向上に努めてまいります。今後ともよろしくお願いいたします。</p>
+                	<p style="padding:10px 0;">アンケートのご協力ありがとうございました。皆さまからのご意見を参考にさせていただきサービス向上に努めてまいります。今後ともよろしくお願いいたします。</p>
                  </div><!--group_txt_form-->
                  
              </div><!--content_inside-->

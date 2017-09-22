@@ -1,86 +1,5 @@
-<?php
-	ob_start();
-	session_start();
-?>
-<?php
-if ($protocol == 'http:' || $protocol =='HTTP:'){
-    $entry_protocol = str_replace('http', 'https', curPageURL() );
-    header('Location:'.$entry_protocol);
-}
-?>
+<?php include('../inc/header.php');?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--[if IE 6]>
-<html id="ie6" class="ie" dir="ltr" lang="en-US">
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7" class="ie" dir="ltr" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" class="ie" dir="ltr" lang="en-US">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
-<html id="noIE" xmlns="http://www.w3.org/1999/xhtml">
-<!--<![endif]-->
-<head>
-	<meta name="robots" content="noindex">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="keywords" content="ヘッドハンティング,人材紹介会社,転職エージェント,キャリアコンサルティング,クライス&カンパニー,30代,コンサルタント,エンジニア,キャリアデザイン,転職サポート,エントリー"/>
-    <meta name="description" content="クライス&カンパニーのサービスへのエントリーフォームです。エントリーご希望の方は、下記項目にご入力の上、ご送信ください。私たちが、あなたの良きパートナーとして転職活動をサポートいたします。"/>
-    <meta name="author" content="株式会社クライス・アンド・カンパニー"/>
-    <meta name="copyright" content="Copyright&copy;2007 KREIS&amp;Company Inc.　All Right Reserved."/>
-    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <meta http-equiv="Content-Style-Type" content="text/css"/>
-    <meta http-equiv="Content-Language" content="ja"/>
-    <title>メールマガジン配信停止 | ヘッドハンティング・人材紹介会社・転職のクライス&amp;カンパニー</title>
-    <script src="../js/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="validate_form_entry.js"></script>
-    <!-- css -->
-    <link type="text/css" href="../css/style.css" rel="stylesheet"/>
-	 <link type="text/css" href="style.css" rel="stylesheet"/>
-    <!-- javascript -->
-    
-</head>
-
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSRPSR"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KSRPSR');</script>
-<!-- End Google Tag Manager -->
-<header>
-    <?php
-    @include('../config.php')
-    ?>
-    <div id="header" class="header clear">
-        <div class="header-form-left clear">
-            <div class="logo1 ">
-                <h1>ヘッドハンティング・人材紹介・転職支援ならクライス&amp;カンパニー</h1>
-                <a href="http://www.kandc.com/"><img src="../img/head/kreis-logo.png" alt="ヘッドハンティングのクライス＆カンパニー"/></a>
-            </div>
-            <div class="logo2">
-                <h2>30代エグゼクティブのための<br />ヘッドハンティング・人材紹介会社</h2>
-            </div>
-        </div>
-        
-        <?php @include('../inc/popup_detail_entry.php'); ?>
-    </div>
-    <div id="entry" class="clear">
-        <div id="entry-nav">
-            <ul class="clear">
-                <li><span class="entry_consent-nav-step"><em class="step_title">メールマガジン配信停止</em></span></li>
-                <li><span class="entry_consent-nav-step1-none"></span></li>
-                <li><span class="entry_consent-nav-step2-active"></span></li>
-                <li><span class="entry_consent-nav-step3"></span></li>
-            </ul>
-        </div>
-    </div>
-</header>
 <div id="container">
 <div id="content">
 <?php
@@ -103,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="entry-form" class="confirmation entry-form">
 	<div class="container">
-      	<div class="label-asked">
+      	<div class="notes">
               <div class="content-asked">
                 以下の内容でお間違いないかご確認いただき、「送信」をクリックしてください。<br />
                 <span style="font-size:11px; color:#646464">※修正する場合には「戻る」をクリックし、内容を変更してください。</span>
@@ -174,22 +93,322 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div><!--#entry-form-->
 
 </div>
-<div style="margin: 0 auto; width: 980px" class="clear">
-    <div id="back-top">
-        <a href="#top"><img src="../img/features/back-to-up.png"></a>
-    </div>
-</div>
 
 </div>
 
-<footer>
-    <div id="main-footer">
-        <div id="footer" class="clear">
-            <div class="copy">
-                Copyright &copy;<?php echo date('Y'); ?> KREIS &amp; Company Inc. All Right Reserved. webdesign tokyodesignroom.com
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+
+<style>
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.center{
+	margin:0 auto;
+	text-align:center;
+}
+.error{color:red;border:none;padding-top:10px;}
+#entry-form .notes{
+	padding:20px 0;
+}
+#entry-form table {
+    width: 100%;
+}
+
+#entry-form table th {
+    background: #f2f2f2;
+}
+#entry-form table th,
+#entry-form table td{
+	width:100%;
+	display:block;
+	padding:10px;
+	vertical-align:middle;
+}
+#entry-form .confirm-wrap .confirm-btn{
+	background:url("../../img/entry_question/button-confirm.png") no-repeat 0 0;
+}
+.email input {
+    max-width: inherit;
+	width:100%;
+	padding:5px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] +label {
+    background: url(../img/checked.png) no-repeat 0 -20px;
+    width: 100%;
+    padding-left:30px;
+    height: 20px;
+    display: block;
+	margin-bottom:10px;
+}
+input[type="checkbox"]:checked +label {
+    background-position:0 0;
+}
+#entry-form .confirm-wrap {
+    padding: 20px 0;
+}
+#entry-form .confirm-wrap .confirm-btn {
+    background: url(../../img/entry_question/button-confirm.png) no-repeat 0 0;
+    width: 186px;
+    height: 47px;
+    color: transparent;
+    font-size: 0;
+    border: none;
+    cursor: pointer;
+    border-width: thin;
+}
+#confirmation-form input{
+	display:block;
+	border:none;
+	margin-bottom:10px;
+}
+
+/* CSS Document */
+input[type="text"],
+input[type="email"],
+textarea{
+	padding:10px;
+	margin-bottom:5px;
+}
+input[type="email"],
+select{
+	width:100%;
+	padding:5px;
+}
+
+select{
+	max-width:220px;
+}
+.rq{color:red;}
+.center{
+	text-align:center;
+	margin:0 auto;
+}
+input[type="checkbox"]{ display:none; }
+input[type="checkbox"] +label{
+    background: url("../img/checked.png") no-repeat 0 -20px;
+    width: 100%;
+    padding: 2px 0 0 30px;
+    height: 18px;
+	display:block;
+}
+input[type="checkbox"]:checked +label{
+	background: url("../img/checked.png") no-repeat 0 0px;
+}
+#entry {
+	background: url("../img/entry/bg-bar.png") repeat-x scroll 0 0 transparent;
+	height: 60px;
+	border-bottom: 1px solid #c3a93b;
+}
+#entry-nav {
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 980px;
+}
+#entry-nav ul li {
+	float: left;
+}
+.entry-nav-step {
+	background: url("../img/entry/process-entry.png");
+	width: 300px;
+	height: 61px;
+	display: block;
+}
+.entry-nav-step1 {
+	background: url("../img/entry/process-entry.png");
+	background-position: -300px -62px;
+	width: 455px;
+	height: 61px;
+	display: block;
+}
+.entry-nav-step2 {
+	background: url("../img/entry/process-entry.png");
+	background-position: -770px 0px;
+	width: 110px;
+	height: 61px;
+	display: block;
+}
+.entry-nav-step3 {
+	background: url("../img/entry/process-entry.png");
+	background-position: -877px 0px;
+	width: 115px;
+	height: 61px;
+	display: block;
+}
+
+.entry_consent-nav-step .step_title {
+    font-size: 0;
+}
+
+.entry_consent-nav-step {
+    background: url("../../img/entry/process-delete-mailmagazine.png") no-repeat 0 0;
+    display: block;
+    height: 61px;
+    width: 504px;
+}
+
+.entry_consent-nav-step1 {
+    background: url("../../img/entry/process-delete-mailmagazine.png") no-repeat -514px -62px;
+    display: block;
+    height: 61px;
+    width: 258px;
+}
+.entry_consent-nav-step1-none {
+    background: url("../../img/entry/process-delete-mailmagazine.png") no-repeat -514px 0px;
+    display: block;
+    height: 61px;
+    width: 258px;
+}
+.entry_consent-nav-step2 {
+    background: url("../../img/entry/process-delete-mailmagazine.png") no-repeat -773px 0;
+    display: block;
+    height: 61px;
+    width: 119px;
+}
+.entry_consent-nav-step2-active {
+    background: url("../../img/entry/process-mailmagazine.png") no-repeat -773px -62px;
+    display: block;
+    height: 61px;
+    width: 119px;
+}
+.entry_consent-nav-step3 {
+    background: url("../../img/entry/process-mailmagazine.png") no-repeat -892px 0;
+    display: block;
+    height: 61px;
+    width: 99px;
+}
+.entry_consent-nav-step3-active {
+    background: url("../../img/entry/process-mailmagazine.png") no-repeat -892px -62px;
+    display: block;
+    height: 61px;
+    width: 99px;
+}
+
+
+.label-asked2 {
+	padding: 15px 0;
+	/*border: 1px solid #D8D8D8;*/
+	margin-bottom: 10px;
+}
+
+
+
+#content{
+	padding:10px 0;
+}
+#content.complete{
+	margin-top:10px;
+	background:#fff;
+}
+#entry-form .title{
+	background:#f2f2f2;
+}
+#entry-form .notes{
+	padding:20px 0;
+}
+#entry-form .errors-list{
+	padding-bottom:15px;
+	display:none;
+}
+#entry-form .errors-list ul li{
+	list-style:disc;
+	margin-left:50px;
+}
+#entry-form .error{
+	position:static;
+	left:0 !important;
+}
+#entry-form .container{
+	max-width:800px;
+	width:100%;
+	margin:0 auto;
+}
+#entry-form table{
+	width:100%;
+}
+#entry-form table th,
+#entry-form table td{
+	border: 1px solid #D8D8D8;
+    padding:10px;
+    vertical-align: middle;
+}
+#entry-form table .checkboxes-list p{
+	padding-bottom:6px;
+}
+#entry-form table .checkboxes-list p:last-child{
+	padding-bottom:0;:
+}
+#entry-form table .email .confirmation{
+	padding-top:10px;
+}
+#entry-form .confirm-wrap{
+	padding:20px 0;
+}
+#entry-form .confirm-wrap .confirm-btn{
+	background: url("../img/entry_question/button-confirm.png") no-repeat 0 0;
+    width: 186px;
+    height: 47px;
+	color:transparent;
+	font-size:0;
+    border: none;
+    cursor: pointer;
+    border-width: thin;
+}
+#entry-form #confirmation-form input[type="text"]{
+	width:100%;
+	background:none;
+	border:none;
+	display:block;
+}
+#entry-form .back-confirm-wrap{
+	padding:20px 0;
+	width:180px;
+	margin:0 auto;
+}
+#entry-form .back-confirm-wrap .previous-page,
+#entry-form .back-confirm-wrap .submit-btn{
+	font-size:0;
+	color:transparent;
+	border:none;
+	width: 81px;
+    height: 47px;
+	display: inline-block;
+	cursor:pointer;
+}
+#entry-form .back-confirm-wrap .previous-page{
+	background: url(../../img/entry_question/button-back.png) no-repeat 0 0;
+	float:left;
+}
+#entry-form .back-confirm-wrap .submit-btn{
+	background: url(../../img/entry_question/button-send.png) no-repeat 0 0;
+	float:right;
+}
+#entry-form .back-confirm-wrap .previous-page:hover,
+#entry-form .back-confirm-wrap .submit-btn:hover,
+#entry-form .confirm-wrap .confirm-btn:hover{
+	background-position:0 -47px;
+}
+
+/* Footer */
+#main-footer{
+	background-color: rgb(1, 21, 32);
+}
+#footer {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+.copy, .copy a {
+    font-size: 10px;
+    color: #999;
+}
+#back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+</style>
+
+<?php include('../inc/footer.php');?>

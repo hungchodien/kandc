@@ -23,7 +23,7 @@
 	@include('../inc/header.php'); 
 ?>
 	
-    <link rel="stylesheet" type="text/css" href="<?php echo url_root; ?>questionnaire/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
     <script src="<?php echo url_root; ?>js/validate_form_entry.js" type="text/javascript"></script>
 		<!--Content-->
         <!--<div class="look_title_page yellow clear">
@@ -48,13 +48,17 @@
        
        <?php
 $prev_input = "";
-	for ($i = -1; $i < 9; $i++):
+if(isset($_POST["key"]) && strlen($_POST["key"])>1):
+	$key=$_POST["key"];
+	$prev_input = "<input type='hidden' name='key' value='{$key}' id='key_id'/>";
+endif;
+	for ($i = -1; $i < 10; $i++):
 		$col = "s{$i}";
 		$val = $_POST["s" . $i];
 		$prev_input .= "<input type='hidden' name='{$col}' value='{$val}' id='{$col}'>";
 	endfor;
 	
-	for ($j = 0; $j <8; $j++):
+	for ($j = 0; $j <9; $j++):
 		$col_area = "s{$j}_area";
 		$val_area = $_POST["s" . $j."_area"];
 		$prev_input .= "<input type='hidden' name='{$col_area}' value='{$val_area}' id='{$col_area}'>";
@@ -79,7 +83,7 @@ $prev_input = "";
                 </div><!--End Group txt-->
                 
                 <div class="group_txt_form clear" style="border:none;">
-                	<div class="clear title_txt">メールアドレス</div>
+                	<div class="clear title_txt">担当コンサルタント名</div>
                     <div class="clear input_form confirm_txt_submit">
                     	<?php echo $_POST['s0']; ?>
                         
@@ -92,7 +96,7 @@ $prev_input = "";
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q1.</p>
-                    	<p>コンサルティングについて <br />（面談でのヒアリング、キャリアアドバイス等）</p>
+                    	<p>コンサルティングについて（面談でのヒアリング、キャリアアドバイス等）</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
                     	<p>
@@ -106,7 +110,7 @@ $prev_input = "";
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q2.</p>
-                    	<p>企業情報の充実度　<br />（求人に対する情報量、質について）</p>
+                    	<p>企業情報の充実度　（求人に対する情報量、質について）</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
                     	<p>
@@ -135,7 +139,7 @@ $prev_input = "";
               <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q4.</p>
-                    	<p>上記以外に、全体的に当社の関わり方でよか<br />った点がございましたら、お聞かせ下さい。</p>
+                    	<p>当社にはどのようなことを期待されてご登録いただきましたでしょうか。</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
                     	<p> <?php echo $_POST['s4_area']; ?></p>
@@ -146,10 +150,9 @@ $prev_input = "";
               <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q5.</p>
-                    	<p>当社にはどのようなことを期待されてご登録<br />いただきましたでしょうか。</p>
+                    	<p>当社サービスはご期待に応えられましたでしょうかうか。</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
-                    	<p> <?php echo $_POST['s5_area']; ?></p>
                     	<p>
                         <?php echo $_POST['s5']; ?>
                          </p>
@@ -161,10 +164,11 @@ $prev_input = "";
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	 <p>Q6.</p>
-                    	<p>活動中、大変だったこと、不安になられたこと<br />などございましたでしょうか？</p>
+                    	<p>活動中、大変だったこと、不安になられたことなどはございましたでしょうか。</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
-                    	<p> <?php echo $_POST['s7_area']; ?></p>
+                        <p> <?php echo $_POST['s9']; ?></p>
+                        <p> <?php echo $_POST['s7_area']; ?></p>
                     </div>
                     
                 </div><!--group_txt_form-->
@@ -172,7 +176,7 @@ $prev_input = "";
                 <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q7.</p>
-                    	<p>今後、転職ならびにキャリアについてご相談<br />される際には、再度当社をご利用いただけま<br />すでしょうか。</p>
+                    	<p>今後、転職ならびにキャリアについてご相談される際には、再度当社をご利用いただけますでしょうか。</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
                     	<p> <?php echo $_POST['s7']; ?></p>
@@ -184,14 +188,23 @@ $prev_input = "";
                  <div class="group_txt_form clear">
                 	<div class="clear title_txt">
                     	<p>Q8.</p>
-                    	<p>当社をご友人、知人の方にご紹介いただけ<br />ますでしょうか。</p>
+                    	<p>今後ご転職をお考えのご友人、知人の方がいらっしゃった場合、当社にご紹介いただけますでしょうか。</p>
                     </div>
                     <div class="clear input_form confirm_txt_submit">
                     	<p> <?php echo $_POST['s8']; ?></p>
                     </div>
                     
                 </div><!--group_txt_form-->
-                
+
+                <div class="group_txt_form clear">
+                    <div class="clear title_txt">
+                        <p>Q9.</p>
+                        <p>その他、当社の関わり方でよかった点がございましたら、お聞かせ下さい。</p>
+                    </div>
+                    <div class="clear input_form confirm_txt_submit">
+                        <p> <?php echo $_POST['s8_area']; ?></p>
+                    </div>
+                </div><!--group_txt_form-->
                 
              </div><!--content_inside-->
              

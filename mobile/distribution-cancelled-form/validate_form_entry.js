@@ -25,11 +25,25 @@ jQuery(document).ready(function($) {
 			}
 			
 		}); // Check each validation
-		
-		if ( $('input[name="email"]').val() == "" ){
-			$('<p class="error rq">'+blank_email_err+'</p>').insertAfter($('input[name="email"]'));
-			result = false;
+        $errorEmail_cf="確認用アドレスが間違っています。";
+		if ( $('#text8').val() == "" ){
+            $('<p class="error rq">'+blank_email_err+'</p>').insertAfter($('#text8'));
+            result = false;
+        }
+        if ( $('#text9').val() == "" ){
+            $('<p class="error rq">'+blank_email_err+'</p>').insertAfter($('#text9'));
+            result = false;
+        }else {
+            if($('#text9').val() != $('#text8').val())
+            {
+                $('#errortext89').text($errorEmail_cf);
+                $('#errortext89').addClass('error');
+                $(this).find('#text9').addClass('textError');
+                result = false;
+            }
 		}
+
+
 		
 		//Check checkbox
 		chkbox_result = false;
